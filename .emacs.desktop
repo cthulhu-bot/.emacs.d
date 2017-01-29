@@ -1,0 +1,31 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Thu Jan 26 01:18:04 2017
+;; Desktop file format version 208
+;; Emacs version 25.1.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (22665 45244 937413 0) (desktop . "208") "josh@Joshs-MacBook-Pro.local" nil nil ((((tty-type . "xterm-256color") (tty . "/dev/tty") (display-type . color) (background-mode . dark) (foreground-color . "#c5c8c6") (cursor-color . "#cc6666") (background-color . "#1d1f21") (border-color . "#373b41") (ranger-minimal) (ranger-current-file . "~/.emacs.d/vendor/") (font . "tty") (height . 42) (width . 204) (modeline . t) (unsplittable) (menu-bar-lines . 1) (frameset--id . "36A4-DAFA-1243-CBF2") (frameset--mini t) (minibuffer . t)) ((min-height . 4) (min-width . 20) (min-height-ignore . 3) (min-width-ignore . 9) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 4) (min-pixel-width . 20) (min-pixel-height-ignore . 3) (min-pixel-width-ignore . 9) (min-pixel-height-safe . 1) (min-pixel-width-safe . 4)) hc (pixel-width . 204) (pixel-height . 41) (total-width . 204) (total-height . 41) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 102) (pixel-height . 41) (total-width . 102) (total-height . 41) (normal-height . 1.0) (normal-width . 0.5) (buffer "*Packages*" (selected) (hscroll . 0) (fringes 0 0 nil) (margins 4) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated) (point . 1) (start . 1))) (leaf (last . t) (pixel-width . 102) (pixel-height . 41) (total-width . 102) (total-height . 41) (normal-height . 1.0) (normal-width . 0.5) (buffer "*Process List*" (selected) (hscroll . 0) (fringes 0 0 nil) (margins 1) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated) (point . 1) (start . 1)))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("company-mode" "package-ar" "company-mode" "bro" "spotlight" "highlight" "projectile" "installed" "recentf" "recent"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("/Users/josh/.emacs" "~/.emacs.d/" "/Users/josh/.emacs"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/Users/josh/.emacs"
+  ".emacs"
+  'emacs-lisp-mode
+  '(linum-mode anzu-mode)
+  44
+  '(166 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (fill-column . 36))
+  '((mark-ring (52 5692 5946 5025 4906 4866 4866 5158 5467 5466 5464 5350))))
+
