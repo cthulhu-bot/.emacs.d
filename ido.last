@@ -2,14 +2,16 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/josh/code/js/" . "leetcode/")
  ("/Users/" . "josh/")
- ("/Users/josh/code/" . "cljs/")
+ ("/Users/josh/code/" . "js/")
  ("/Users/josh/" . ".emacs.d/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
  "/Users/josh/"
+ "/Users/josh/code/js/leetcode/"
  "/Users/josh/.emacs.d/"
  "/Users/josh/code/"
  "/Users/josh/code/cljs/"
@@ -19,13 +21,23 @@
 ;; ----- ido-work-file-list -----
 (
  ".emacs"
+ "addTwoNumbers.js"
+ ".bashrc"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/josh/" (22665 30379 0 0) "VirtualBox VMs/" "Public/" "Projects/" "pokemon/" "Pictures/" "Music/" "Movies/" "Library/" "IdeaProjects/" "games/" "Downloads/" "Documents/" "Desktop/" "code/" "Blizzard/" "bin/" "Applications/" ".zshrc" ".vscode/" ".viminfo" ".vim/" ".v8flags.4.5.103.35.josh.json" ".Trash/" ".tmux.conf" ".ssh/" ".sonic-pi/" ".smex-items" ".sbt/" ".rnd" ".oracle_jre_usage/" ".octave_hist" ".nvm/" ".nuget/" ".npm/" ".node_repl_history" ".node-gyp/" ".node/" ".mix/" ".m2/" ".local/" ".lesshst" ".lein/" ".ivy2/" ".IdeaIC14/" ".hex/" ".gitconfig" ".ghc/" ".emacs~" ".emacs.d/" ".emacs" ".electron/" ".DS_Store" ".dotnet/" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".boot2docker/" ".bashrc" ".bash_sessions/" ".bash_history" ".babel.json" ".aws/" ".atom/" ".android/" ".ackrc" "../" "./")
+ ("/Users/josh/" (22673 19187 0 0) "VirtualBox VMs/" "Public/" "Projects/" "pokemon/" "Pictures/" "Music/" "Movies/" "Library/" "IdeaProjects/" "games/" "Downloads/" "Documents/" "Desktop/" "code/" "Blizzard/" "bin/" "Applications/" ".zshrc" ".vscode/" ".viminfo" ".vim/" ".v8flags.4.5.103.35.josh.json" ".Trash/" ".tmux.conf" ".ssh/" ".sonic-pi/" ".smex-items" ".sbt/" ".rnd" ".oracle_jre_usage/" ".octave_hist" ".nvm/" ".nuget/" ".npm/" ".node_repl_history" ".node-gyp/" ".node/" ".mix/" ".m2/" ".local/" ".lesshst" ".lein/" ".ivy2/" ".IdeaIC14/" ".hex/" ".gitconfig" ".ghc/" ".emacs~" ".emacs.d/" ".emacs" ".electron/" ".DS_Store" ".dotnet/" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".boot2docker/" ".bashrc" ".bash_sessions/" ".bash_history" ".babel.json" ".aws/" ".atom/" ".android/" ".ackrc" "../" "./")
 
- ("/Users/josh/.emacs.d/" (22665 26205 0 0) "vendor/" "themes/" "ido.last~" "ido.last" "eshell/" "elpa/" "bookmarks" "auto-save-list/" ".git/" ".emacs.desktop.lock" ".emacs.desktop" "../" "./")
+ ("/Users/josh/.emacs.d/" (22673 19190 0 0) "vendor/" "themes/" "recentf" "README.md" "network-security.data" "LICENSE" "ido.last~" "ido.last" "eshell/" "elpa/" "bookmarks" "auto-save-list/" "ac-comphist.dat" ".git/" ".emacs.desktop.lock" ".emacs.desktop" ".emacs" "../" "./")
+
+ ("/Users/josh/code/js/leetcode/" (22670 61079 0 0) "addTwoNumbers.js~" "addTwoNumbers.js" "../" "./")
+
+ ("/Users/josh/code/cljs-playgrounds/" (22227 62239 0 0) "src/" "out/" "index.html" "cljs.jar" "build.clj" "../" "./")
+
+ ("/Users/josh/code/js/" (22642 47111 0 0) "react/" "promises/" "leetcode/" "gulp/" "generators/" "bowling-game/" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/josh/code/" (22667 64983 0 0) "zookeeper-3.5.1-alpha/" "webpack-app/" "undead/" "topcoder/" "superagent/" "run-me.sh" "rowan-shell/" "repl-reload/" "redux-sandbox/" "redux/" "react-slingshot/" "react/" "rally-emacs/" "racket/" "python/" "PokemonGo-Map/" "pokemap-webapp/" "pokemap-3/" "pokemap-2/" "pigeon/" "pgoapi/" "personalsite-redux/" "personalsite/" "parens-of-the-dead/" "node-pokemap/" "machine-learning/" "js/" "joshuastupplebeen.io/" "ipswich/" "hwapp/" "haskell/" "fs/" "food-for-naught/" "elixir-sandbox/" "electron-test/" "electron-quick-start/" "electron-browser/" "dead/" "create-lisp/" "coreclr-demo/" "coreclr/" "clojure/" "cljs-playgrounds/" "cljs/" "clj-playgrounds-02/" "clj-playgrounds/" "blessed/" "agents/" ".DS_Store" "../" "./")
 
  ("/Users/josh/.emacs.d/vendor/emacs-powerline/" (22664 24478 0 0) "README.rst" "powerline.el" "AUTHORS" ".gitignore" ".git/" "../" "./")
 
@@ -46,8 +58,6 @@
  ("/Users/josh/code/PokemonGo-Map/" (22454 40755 0 0) "Tools/" "templates/" "static/" "scalingo.json" "runserver.py" "run-me.sh" "requirements.txt" "README.md" "Procfile" "pogom.db" "pogom/" "package.json" "node_modules/" "manifest.yml" "LICENSE" "Gruntfile.js" "example.py" "docs/" "Dockerfile.dev" "Dockerfile" "contrib/" "config/" ".travis.yml" ".slugignore" ".landscape.yml" ".gitignore" ".github/" ".git/" ".flake8" ".eslintrc.json" ".eslintignore" ".dockerignore" ".buildpacks" "../" "./")
 
  ("/Users/josh/Pictures/" (22204 9668 0 0) "zinc.jpg" "xfKP4tR.webm" "xfKP4tR.gif" "table.jpg" "t0tCWdb.gif" "steam.dmg" "qUHBky9.jpg" "Photos Library.photoslibrary/" "OTCfYPR.jpg" "molecules.jpg" "mercury.jpg" "maxheadroom.jpg" "helium.jpg" "EhYglxK - Imgur.gif" "carbon.jpg" "afalJmT.jpg" "4a.gif" ".localized" ".DS_Store" "../" "./")
-
- ("/Users/josh/code/" (22663 64494 0 0) "zookeeper-3.5.1-alpha/" "webpack-app/" "undead/" "topcoder/" "superagent/" "run-me.sh" "rowan-shell/" "repl-reload/" "redux-sandbox/" "redux/" "react-slingshot/" "react/" "rally-emacs/" "racket/" "python/" "PokemonGo-Map/" "pokemap-webapp/" "pokemap-3/" "pokemap-2/" "pigeon/" "pgoapi/" "personalsite-redux/" "personalsite/" "parens-of-the-dead/" "node-pokemap/" "machine-learning/" "js/" "joshuastupplebeen.io/" "ipswich/" "hwapp/" "haskell/" "fs/" "food-for-naught/" "elixir-sandbox/" "electron-test/" "electron-quick-start/" "electron-browser/" "dead/" "create-lisp/" "coreclr-demo/" "coreclr/" "clojure/" "cljs-playgrounds/" "cljs/" "clj-playgrounds-02/" "clj-playgrounds/" "blessed/" "agents/" ".DS_Store" "../" "./")
 
  ("/Users/josh/.vscode/" (22439 33199 0 0) "extensions/" "../" "./")
 )

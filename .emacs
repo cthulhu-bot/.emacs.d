@@ -1,4 +1,9 @@
+;;; package --- Summary
 (require 'package)
+
+;;; Commentary:
+
+;;; Code:
 (add-to-list 'package-archives '("gnu" . "https://elpa.gnu.org/packages/"))
 (add-to-list 'package-archives '("marmalade" . "https://marmalade-repo.org/packages/"))
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
@@ -60,7 +65,7 @@
     ("#dc322f" "#cb4b16" "#b58900" "#546E00" "#B4C342" "#00629D" "#2aa198" "#d33682" "#6c71c4")))
  '(package-selected-packages
    (quote
-    (init-open-recentf sync-recentf multiple-cursors anzu popwin direx all-the-icons all-the-icons-dired neotree smart-mode-line smart-mode-line-powerline-theme dired+ dired-rainbow dired-details dired-subtree ranger jade icicles ido-grid-mode ido-ubiquitous ido-vertical-mode smex color-theme-sanityinc-tomorrow monokai-theme solarized-theme paredit clojure-quick-repls clojars cider js2-mode)))
+    (js-comint js-format js-import js2-closure smart-forward expand-region nyan-mode nyan-prompt magit discover-my-major auto-complete restclient web-mode clojure-snippets clojurescript-mode clj-refactor exec-path-from-shell flycheck-flow flycheck-clojure flycheck use-package company-flow init-open-recentf sync-recentf multiple-cursors anzu popwin direx all-the-icons all-the-icons-dired neotree smart-mode-line smart-mode-line-powerline-theme dired+ dired-rainbow dired-details dired-subtree ranger jade icicles ido-grid-mode ido-ubiquitous ido-vertical-mode smex color-theme-sanityinc-tomorrow monokai-theme solarized-theme paredit clojure-quick-repls clojars js2-mode)))
  '(pos-tip-background-color "#073642")
  '(pos-tip-foreground-color "#93a1a1")
  '(smartrep-mode-line-active-bg (solarized-color-blend "#859900" "#073642" 0.2))
@@ -81,6 +86,9 @@
  ;; If there is more than one, they won't work right.
  '(mode-line ((t (:foreground "#030303" :background "#bdbdbd" :box nil))))
  '(mode-line-inactive ((t (:foreground "#f9f9f9" :background "#666666" :box nil)))))
+
+;; Disable file menu
+(menu-bar-mode -1)
 
 ;; Smex
 (require 'smex)
@@ -133,7 +141,7 @@
 (popwin-mode 1)
 
 ;; Direx
-(require 'direx)
+;;(require 'direx)
 ;;(global-set-key (kbd "C-x C-j") 'direx:jump-to-directory)
 ;; (push '(direx:direx-mode :position left :width 25 :dedicated t)
 ;;        popwin:special-display-config)
@@ -157,10 +165,82 @@
 		       (interactive)
 		       (dired "~/")))
 
+;; Paredit
+(autoload 'enable-paredit-mode "paredit" "Turn on pseudo-structural editing of Lisp code" t)
+(add-hook 'emacs-lisp-mode-hook #'enable-paredit-mode)
+(add-hook 'eval-expression-minibuffer-setup-hook #'enable-paredit-mode)
+(add-hook 'ielm-mode-hook #'enable-paredit-mode)
+(add-hook 'lisp-mode-hook #'enable-paredit-mode)
+(add-hook 'lisp-interaction-mode-hook #'enable-paredit-mode)
+(add-hook 'scheme-mode-hook #'enable-paredit-mode)
+
 ;; Highlight Line Mode
 (global-hl-line-mode t)
 
 ;; Company Mode
 (add-hook 'after-init-hook 'global-company-mode)
 
+;; Flycheck
+(use-package flycheck
+  :ensure t
+  :init (global-flycheck-mode))
 
+;; Autocomplete
+(ac-config-default)
+
+;; Ac-js2 mode
+(add-hook 'js2-mode-hook 'ac-js2-mode)
+
+;; Restclient
+(require 'restclient)
+
+;; Discover my major
+(global-set-key (kbd "C-h C-m") 'discover-my-major)
+(global-set-key (kbd "C-h M-m") 'discover-my-mode)
+
+;; Smart forward
+(require 'smart-forward)
+(global-set-key (kbd "M-<up>") 'smart-up)
+(global-set-key (kbd "M-<down>") 'smart-down)
+(global-set-key (kbd "M-<left>") 'smart-left)
+(global-set-key (kbd "M-<right>") 'smart-right)
+
+;; Expand region
+(require 'expand-region)
+;;(global-set-key (kbd "C-=") 'er/expand-region)
+
+;; Basic keybindings
+(global-set-key (kbd "S-C-<left>")  'shrink-window-horizontally)
+(global-set-key (kbd "S-C-<right>") 'enlarge-window-horizontally)
+(global-set-key (kbd "S-C-<down>")  'shrink-window)
+(global-set-key (kbd "S-C-<up>") 'enlarge-window)
+(global-set-key (kbd "C-c C-b") 'eval-buffer)
+
+;;;;;;;;;;;;;;;;;;; Javascript ;;;;;;;;;;;;;;;;;;;
+;; Js2 refactor
+(require 'js2-refactor)
+(add-hook 'js2-mode-hook #'js2-refactor-mode)
+(js2r-add-keybindings-with-prefix "C-c C-m")
+
+;; JS comint
+(require 'js-comint)
+(setq inferior-js-program-command "/usr/bin/java org.mozilla.javascript.tools.shell.Main")
+(add-hook 'js2-mode-hook '(lambda ()
+			    (local-set-key "\C-x\C-e" 'js-send-last-sexp)
+			    (local-set-key "\C-\M-x"  'js-send-last-sexp-and-go)
+			    (local-set-key "\C-cb"    'js-send-buffer)
+			    (local-set-key "\C-c\C-b" 'js-send-buffer-and-go)
+			    (local-set-key "\C-cl"    'js-load-file-and-go)))
+
+;; JS format
+;; (setenv "PATH" (concat "/usr/local/bin/node:" (getenv "PATH")))
+(require 'js-format)
+;; (eval-after-load "js2-mode"
+;; 	    (add-hook 'js2-mode-hook
+;; 		      (lambda ()
+;; 			(js-format-setup "standard"))))
+(global-set-key (kbd "C-x j j") 'js-format-buffer)
+
+
+(provide '.emacs)
+;;; .emacs ends here
