@@ -10,9 +10,9 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/josh/.emacs.d/"
  "/Users/josh/"
  "/Users/josh/code/js/leetcode/"
- "/Users/josh/.emacs.d/"
  "/Users/josh/code/"
  "/Users/josh/code/cljs/"
  "/Users/josh/code/clj-playgrounds/"
@@ -20,6 +20,8 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "keybindings.md"
+ ".tern-config"
  ".emacs"
  "addTwoNumbers.js"
  ".bashrc"
@@ -27,11 +29,11 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/josh/" (22673 19187 0 0) "VirtualBox VMs/" "Public/" "Projects/" "pokemon/" "Pictures/" "Music/" "Movies/" "Library/" "IdeaProjects/" "games/" "Downloads/" "Documents/" "Desktop/" "code/" "Blizzard/" "bin/" "Applications/" ".zshrc" ".vscode/" ".viminfo" ".vim/" ".v8flags.4.5.103.35.josh.json" ".Trash/" ".tmux.conf" ".ssh/" ".sonic-pi/" ".smex-items" ".sbt/" ".rnd" ".oracle_jre_usage/" ".octave_hist" ".nvm/" ".nuget/" ".npm/" ".node_repl_history" ".node-gyp/" ".node/" ".mix/" ".m2/" ".local/" ".lesshst" ".lein/" ".ivy2/" ".IdeaIC14/" ".hex/" ".gitconfig" ".ghc/" ".emacs~" ".emacs.d/" ".emacs" ".electron/" ".DS_Store" ".dotnet/" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".boot2docker/" ".bashrc" ".bash_sessions/" ".bash_history" ".babel.json" ".aws/" ".atom/" ".android/" ".ackrc" "../" "./")
+ ("/Users/josh/" (22676 9474 0 0) "VirtualBox VMs/" "Public/" "Projects/" "pokemon/" "Pictures/" "Music/" "Movies/" "Library/" "IdeaProjects/" "games/" "Downloads/" "Documents/" "Desktop/" "code/" "Blizzard/" "bin/" "Applications/" ".zshrc" ".vscode/" ".viminfo" ".vim/" ".v8flags.4.5.103.35.josh.json" ".Trash/" ".tmux.conf" ".tern-config~" ".tern-config" ".ssh/" ".sonic-pi/" ".smex-items" ".sbt/" ".rnd" ".oracle_jre_usage/" ".octave_hist" ".nvm/" ".nuget/" ".npm/" ".node_repl_history" ".node-gyp/" ".node/" ".mix/" ".m2/" ".local/" ".lesshst" ".lein/" ".ivy2/" ".IdeaIC14/" ".hex/" ".gitconfig" ".ghc/" ".emacs~" ".emacs.d/" ".emacs" ".electron/" ".DS_Store" ".dotnet/" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".boot2docker/" ".bashrc" ".bash_sessions/" ".bash_history" ".babel.json" ".aws/" ".atom/" ".android/" ".ackrc" "../" "./")
 
- ("/Users/josh/.emacs.d/" (22673 19190 0 0) "vendor/" "themes/" "recentf" "README.md" "network-security.data" "LICENSE" "ido.last~" "ido.last" "eshell/" "elpa/" "bookmarks" "auto-save-list/" "ac-comphist.dat" ".git/" ".emacs.desktop.lock" ".emacs.desktop" ".emacs" "../" "./")
+ ("/Users/josh/.emacs.d/" (22676 9061 0 0) "vendor/" "themes/" "recentf" "README.md" "network-security.data" "LICENSE" "keybindings.md~" "keybindings.md" "ido.last~" "ido.last" "eshell/" "elpa/" "bookmarks" "auto-save-list/" "ac-comphist.dat" ".git/" ".emacs.desktop.lock" ".emacs.desktop" ".emacs" "../" "./")
 
- ("/Users/josh/code/js/leetcode/" (22670 61079 0 0) "addTwoNumbers.js~" "addTwoNumbers.js" "../" "./")
+ ("/Users/josh/code/js/leetcode/" (22676 9102 0 0) "addTwoNumbers.js~" "addTwoNumbers.js" "../" "./")
 
  ("/Users/josh/code/cljs-playgrounds/" (22227 62239 0 0) "src/" "out/" "index.html" "cljs.jar" "build.clj" "../" "./")
 

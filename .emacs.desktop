@@ -2,19 +2,19 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Tue Jan 31 20:50:41 2017
+;; Created Fri Feb  3 00:40:59 2017
 ;; Desktop file format version 208
 ;; Emacs version 25.1.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (22673 23313 98154 0) (desktop . "208") "josh@Joshs-MacBook-Pro.local" nil nil ((((tty-type . "xterm-256color") (tty . "/dev/tty") (display-type . color) (background-mode . dark) (foreground-color . "#c5c8c6") (cursor-color . "#cc6666") (background-color . "#1d1f21") (border-color . "#373b41") (menu-bar-lines . 0) (ranger-minimal) (ranger-current-file . "~/") (font . "tty") (height . 76) (width . 360) (modeline . t) (unsplittable) (frameset--id . "8A5A-F697-6494-711C") (frameset--mini t) (minibuffer . t)) ((min-height . 4) (min-width . 20) (min-height-ignore . 2) (min-width-ignore . 8) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 4) (min-pixel-width . 20) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 8) (min-pixel-height-safe . 1) (min-pixel-width-safe . 4)) hc (pixel-width . 360) (pixel-height . 75) (total-width . 360) (total-height . 75) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 180) (pixel-height . 75) (total-width . 180) (total-height . 75) (normal-height . 1.0) (normal-width . 0.5) (buffer ".emacs<josh>" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins 3) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated) (point . 8726) (start . 7259))) (leaf (last . t) (pixel-width . 180) (pixel-height . 75) (total-width . 180) (total-height . 75) (normal-height . 1.0) (normal-width . 0.5) (buffer "*Warnings*" (selected) (hscroll . 0) (fringes 0 0 nil) (margins 1) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated) (point . 340) (start . 1)))))])
+(setq desktop-saved-frameset [frameset 1 (22676 13323 702077 0) (desktop . "208") "josh@Joshs-MacBook-Pro.local" nil nil ((((tty-type . "xterm-256color") (tty . "/dev/tty") (display-type . color) (background-mode . dark) (foreground-color . "#afd7d7") (cursor-color . "#d0d0d0") (background-color . "#131516") (border-color . "#373b41") (menu-bar-lines . 0) (ranger-minimal) (ranger-current-file . "/Users/josh/.ackrc") (font . "tty") (height . 43) (width . 204) (modeline . t) (unsplittable) (frameset--id . "E57C-497C-7C80-E44E") (frameset--mini t) (minibuffer . t)) ((min-height . 4) (min-width . 20) (min-height-ignore . 2) (min-width-ignore . 10) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 4) (min-pixel-width . 20) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 10) (min-pixel-height-safe . 1) (min-pixel-width-safe . 4)) hc (pixel-width . 204) (pixel-height . 42) (total-width . 204) (total-height . 42) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 102) (pixel-height . 42) (total-width . 102) (total-height . 42) (normal-height . 1.0) (normal-width . 0.5) (buffer ".emacs<josh>" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins 3) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated) (point . 10621) (start . 10029))) (leaf (last . t) (pixel-width . 102) (pixel-height . 42) (total-width . 102) (total-height . 42) (normal-height . 1.0) (normal-width . 0.5) (buffer ".emacs<josh>" (selected) (hscroll . 0) (fringes 0 0 nil) (margins 3) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated) (point . 10029) (start . 9484)))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("expand" "expand-region" "js2-mode" "add-js2" "js-" "js2-mode-" "add-js2" "q" "solarized" "js-comint" "comint" "autocomp" "js2-refactor" "skewer" "Ranger" "js2-refactor"))
+(setq search-ring '("jade" "magit" "mad" "madhatr" "fiplr" "browse-kill" "xref-js2" "flycheck" "js-mode-map" "tern-context" "tern-" "tern-auto" "tern" "tern-auto" "flycheck" "tern-ac"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("/Users/josh/.emacs" "/Users/josh/code/js/leetcode/addTwoNumbers.js" "/Users/josh/.emacs" "/Users/josh/code/js/leetcode/addTwoNumbers.js" "/Users/josh/.emacs" "/Users/josh/code/js/leetcode/addTwoNumbers.js" "~/.emacs" "/Users/josh/.emacs" "/Users/josh/code/js/leetcode/addTwoNumbers.js" "~/.emacs" "/Users/josh/code/js/leetcode/addTwoNumbers.js" "/Users/josh/.emacs" "/Users/josh/.bashrc" "/Users/josh/.emacs" "/Users/josh/.emacs.d/.emacs" "/Users/josh/.emacs" "/Users/josh/code/js/leetcode/addTwoNumbers.js" "/Users/josh/.emacs" "~/.emacs.d/" "/Users/josh/.emacs"))
+(setq file-name-history '("/Users/josh/.emacs.d/keybindings.md" "/Users/josh/.tern-config" "/Users/josh/.emacs.d/keybindings.md" "/Users/josh/.emacs" "/Users/josh/.emacs.d/keybindings.md" "/Users/josh/.emacs" "/Users/josh/code/js/leetcode/addTwoNumbers.js" "/Users/josh/.emacs" "/Users/josh/code/js/leetcode/addTwoNumbers.js" "/Users/josh/.emacs" "/Users/josh/code/js/leetcode/addTwoNumbers.js" "~/.emacs" "/Users/josh/.emacs" "/Users/josh/code/js/leetcode/addTwoNumbers.js" "~/.emacs" "/Users/josh/code/js/leetcode/addTwoNumbers.js" "/Users/josh/.emacs" "/Users/josh/.bashrc" "/Users/josh/.emacs" "/Users/josh/.emacs.d/.emacs" "/Users/josh/.emacs" "/Users/josh/code/js/leetcode/addTwoNumbers.js" "/Users/josh/.emacs" "~/.emacs.d/" "/Users/josh/.emacs"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 208
@@ -22,24 +22,48 @@
   ".emacs"
   'emacs-lisp-mode
   '(linum-mode anzu-mode override-global-mode flycheck-mode auto-complete-mode company-mode paredit-mode)
-  8726
-  '(8602 nil)
+  10621
+  '(6204 nil)
   nil
   nil
   '((buffer-file-coding-system . undecided-unix) (fill-column . 36) (case-fold-search . t))
-  '((mark-ring (8514 8581 8514 8726 8602 7527 8608 8602 8074 8514 8095 7956 8290 8311 8413 8220))))
+  '((mark-ring (7682 10029 8822 8822 8821 8821 8821 8821 9970 10154 9766 9588 9498 9565 9498 9712))))
 
 (desktop-create-buffer 208
   "/Users/josh/code/js/leetcode/addTwoNumbers.js"
   "addTwoNumbers.js"
   'js-mode
   '(linum-mode anzu-mode override-global-mode flycheck-mode auto-complete-mode company-mode)
-  543
-  '(1 nil)
+  810
+  '(748 nil)
   nil
   nil
   '((buffer-file-coding-system . undecided-unix))
-  '((mark-ring (1 385 358 423 385 334))))
+  '((mark-ring (931 939 1 1 385 358 423 385 334))))
+
+(desktop-create-buffer 208
+  "/Users/josh/.emacs.d/.emacs"
+  ".emacs"
+  'emacs-lisp-mode
+  '(linum-mode auto-revert-mode anzu-mode override-global-mode flycheck-mode auto-complete-mode company-mode paredit-mode)
+  10625
+  '(10625 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . iso-2022-7bit-unix))
+  '((mark-ring (44 44 25 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/josh/.emacs.d/keybindings.md"
+  "keybindings.md"
+  'fundamental-mode
+  '(linum-mode anzu-mode override-global-mode company-mode)
+  230
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
 
 (desktop-create-buffer 208
   "/Users/josh/.bashrc"
@@ -54,16 +78,16 @@
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
-  "/Users/josh/.emacs.d/.emacs"
-  ".emacs"
-  'emacs-lisp-mode
-  '(linum-mode auto-revert-mode anzu-mode override-global-mode flycheck-mode auto-complete-mode company-mode paredit-mode)
-  5969
+  "/Users/josh/.tern-config"
+  ".tern-config"
+  'fundamental-mode
+  '(linum-mode anzu-mode override-global-mode company-mode)
+  81
   '(44 nil)
   nil
   nil
-  '((buffer-file-coding-system . undecided-unix))
-  '((mark-ring (44 25 1 1))))
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (81))))
 
 (desktop-create-buffer 208
   nil
