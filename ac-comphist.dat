@@ -1,142 +1,150 @@
-((("jade" .
-   [1 0 0 0])
-  ("j" .
-   [1])
-  ("magit-dispatch-popup" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("global-map" .
-   [0 0 0 0 0 0 0 0 0 1])
-  ("magit" .
-   [1 0 0 0 0])
-  ("browse-kill-ring-default-keybindings" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("context-coloring-mode" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("tern-mode" .
-   [1 0 0 0 0 0 0 0 0])
-  ("major-mode" .
+((("inferior-js-program-command" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("fiplr-find-file" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("fiplr" .
+   [1 0 1 0 0])
+  ("Flipr" .
+   [0 0 0 1 0])
+  ("xref-backend-functions" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("define-key" .
    [1 0 0 0 0 0 0 0 0 0])
-  ("eq" .
-   [1 0])
-  ("unless" .
+  ("insert-tab" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("indent-line-function" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("indent" .
    [1 0 0 0 0 0])
-  ("js-mode" .
-   [1 0 0 0 0 0 0])
-  ("tern-context-coloring-setup" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("context-coloring" .
+  ("tab-width" .
+   [1 0 0 0 0 0 0 0 1])
+  ("indent-tabs-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("setq-default" .
+   [3 0 0 0 0 0 0 0 0 0 0 0])
+  ("log" .
+   [3 0 0])
+  ("console" .
+   [3 0 0 0 0 0 0])
+  ("nil" .
+   [4 0 0])
+  ("load-path" .
+   [1 0 0 0 0 0 0 0 0])
+  ("add-to-list" .
+   [4 0 0 0 0 0 0 0 0 0 1])
+  ("web-beautify" .
+   [0 0 0 0 0 0 0 0 0 0 0 1])
+  ("js2-mode-map" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])
+  ("eval-after-load" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("js-format-buffer" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("js-format-setup" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("js2-mode" .
+   [4 0 0 0 0 0 0 0])
+  ("js-format" .
+   [1 0 0 0 0 0 0 0 0])
+  ("js-load-file-and-go" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("js-send-buffer-and-go" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("js-send-buffer" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("js-send-last-sexp-and-go" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("js-send-last-sexp" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("local-set-key" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("lambda" .
+   [2 0 0 2 0 0])
+  ("setq" .
+   [5 0 0 0])
+  ("js-comint" .
+   [1 0 0 0 0 0 0 0 0])
+  ("use-package" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("smart-forward" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("require" .
+   [7 0 0 0 0 0 0])
+  ("global-set-key" .
+   [4 0 0 0 0 0 0 0 0 0 2 0 0 2])
+  ("kbd" .
+   [10 0 0])
+  ("add-hook" .
+   [7 0 0 0 0 0 0 0])
+  ("js2-mode-hook" .
+   [4 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("autoload" .
+   [2 0 0 0 0 0 0 0])
+  ("enable-paredit-mode" .
+   [1 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0])
+  ("emacs-lisp-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("emacs-lisp-mode-hook" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("eval-expression-minibuffer-setup-hook" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("lisp-mode-hook" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("lisp-interaction" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("lisp-interaction-mode-hook" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("scheme" .
+   [1 0 0 0 0 0])
+  ("shrink-window-horizontally" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("enlarge-window-horizontally" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("expand-region" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("er/expand-region" .
    [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("progn" .
-   [1 0 0 0 0])
-  ("tern" .
-   [1 0 0 0])
-  ("getenv" .
+  ("setenv" .
    [1 0 0 0 0 0])
   ("concat" .
    [1 0 0 0 0 0])
-  ("setenv" .
+  ("getenv" .
    [1 0 0 0 0 0])
-  ("er/expand-region" .
+  ("tern" .
+   [1 0 0 0])
+  ("progn" .
+   [1 0 0 0 0])
+  ("context-coloring" .
    [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("expand-region" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("enlarge-window-horizontally" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("shrink-window-horizontally" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("scheme" .
-   [1 0 0 0 0 0])
-  ("lisp-interaction-mode-hook" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("lisp-interaction" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("lisp-mode-hook" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("eval-expression-minibuffer-setup-hook" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("emacs-lisp-mode-hook" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("emacs-lisp-mode" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("enable-paredit-mode" .
-   [1 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0])
-  ("autoload" .
-   [2 0 0 0 0 0 0 0])
-  ("js2-mode-hook" .
-   [4 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("add-hook" .
-   [7 0 0 0 0 0 0 0])
-  ("kbd" .
-   [10 0 0])
-  ("global-set-key" .
-   [4 0 0 0 0 0 0 0 0 0 2 0 0 2])
-  ("require" .
-   [7 0 0 0 0 0 0])
-  ("smart-forward" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("use-package" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("js-comint" .
-   [1 0 0 0 0 0 0 0 0])
-  ("setq" .
-   [4 0 0 0])
-  ("lambda" .
-   [2 0 0 2 0 0])
-  ("local-set-key" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("js-send-last-sexp" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("js-send-last-sexp-and-go" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("js-send-buffer" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("js-send-buffer-and-go" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("js-load-file-and-go" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("js-format" .
-   [1 0 0 0 0 0 0 0 0])
-  ("js2-mode" .
-   [2 0 0 0 0 0 0 0])
-  ("js-format-setup" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("js-format-buffer" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("eval-after-load" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
-  ("js2-mode-map" .
-   [2 0 0 0 0 0 0 0 0 0 0 0])
-  ("web-beautify" .
-   [0 0 0 0 0 0 0 0 0 0 0 1])
-  ("add-to-list" .
-   [0 0 0 0 0 0 0 0 0 0 1])
-  ("load-path" .
-   [1 0 0 0 0 0 0 0 0])
-  ("nil" .
-   [4 0 0])
-  ("console" .
+  ("tern-context-coloring-setup" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("js-mode" .
    [1 0 0 0 0 0 0])
-  ("log" .
-   [1 0 0])
-  ("setq-default" .
-   [3 0 0 0 0 0 0 0 0 0 0 0])
-  ("indent-tabs-mode" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("tab-width" .
-   [1 0 0 0 0 0 0 0 1])
-  ("indent" .
+  ("unless" .
    [1 0 0 0 0 0])
-  ("indent-line-function" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("insert-tab" .
+  ("eq" .
+   [1 0])
+  ("major-mode" .
    [1 0 0 0 0 0 0 0 0 0])
-  ("define-key" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("xref-backend-functions" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("Flipr" .
-   [0 0 0 1 0])
-  ("fiplr" .
-   [1 0 1 0 0])
-  ("fiplr-find-file" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])))
+  ("tern-mode" .
+   [1 0 0 0 0 0 0 0 0])
+  ("context-coloring-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("browse-kill-ring-default-keybindings" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("magit" .
+   [1 0 0 0 0])
+  ("global-map" .
+   [0 0 0 0 0 0 0 0 0 1])
+  ("magit-dispatch-popup" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("j" .
+   [1])
+  ("jade" .
+   [1 0 0 0])
+  ("interpreter-mode-alist" .
+   [1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("auto-mode-alist" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("js2-jsx-mode" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])))

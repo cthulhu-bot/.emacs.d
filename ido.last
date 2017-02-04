@@ -20,20 +20,23 @@
 
 ;; ----- ido-work-file-list -----
 (
- "keybindings.md"
- ".tern-config"
+ "README.md"
  ".emacs"
- "addTwoNumbers.js"
+ "keybindings.md"
  ".bashrc"
+ ".tern-config"
+ "addTwoNumbers.js"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/josh/" (22676 9474 0 0) "VirtualBox VMs/" "Public/" "Projects/" "pokemon/" "Pictures/" "Music/" "Movies/" "Library/" "IdeaProjects/" "games/" "Downloads/" "Documents/" "Desktop/" "code/" "Blizzard/" "bin/" "Applications/" ".zshrc" ".vscode/" ".viminfo" ".vim/" ".v8flags.4.5.103.35.josh.json" ".Trash/" ".tmux.conf" ".tern-config~" ".tern-config" ".ssh/" ".sonic-pi/" ".smex-items" ".sbt/" ".rnd" ".oracle_jre_usage/" ".octave_hist" ".nvm/" ".nuget/" ".npm/" ".node_repl_history" ".node-gyp/" ".node/" ".mix/" ".m2/" ".local/" ".lesshst" ".lein/" ".ivy2/" ".IdeaIC14/" ".hex/" ".gitconfig" ".ghc/" ".emacs~" ".emacs.d/" ".emacs" ".electron/" ".DS_Store" ".dotnet/" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".boot2docker/" ".bashrc" ".bash_sessions/" ".bash_history" ".babel.json" ".aws/" ".atom/" ".android/" ".ackrc" "../" "./")
+ ("/Users/josh/.emacs.d/" (22677 38496 0 0) "vendor/" "themes/" "recentf" "README.md" "network-security.data" "LICENSE" "keybindings.md" "ido.last~" "ido.last" "eshell/" "elpa/" "bookmarks" "auto-save-list/" "ac-comphist.dat" ".git/" ".emacs.desktop.lock" ".emacs.desktop" ".emacs" "../" "./")
 
- ("/Users/josh/.emacs.d/" (22676 9061 0 0) "vendor/" "themes/" "recentf" "README.md" "network-security.data" "LICENSE" "keybindings.md~" "keybindings.md" "ido.last~" "ido.last" "eshell/" "elpa/" "bookmarks" "auto-save-list/" "ac-comphist.dat" ".git/" ".emacs.desktop.lock" ".emacs.desktop" ".emacs" "../" "./")
+ ("/Users/josh/" (22677 38452 0 0) "VirtualBox VMs/" "Public/" "Projects/" "pokemon/" "Pictures/" "Music/" "Movies/" "Library/" "IdeaProjects/" "games/" "Downloads/" "Documents/" "Desktop/" "code/" "Blizzard/" "bin/" "Applications/" ".zshrc" ".vscode/" ".viminfo" ".vim/" ".v8flags.4.5.103.35.josh.json" ".Trash/" ".tmux.conf" ".tern-config~" ".tern-config" ".ssh/" ".sonic-pi/" ".smex-items" ".sbt/" ".rnd" ".oracle_jre_usage/" ".octave_hist" ".nvm/" ".nuget/" ".npm/" ".node_repl_history" ".node-gyp/" ".node/" ".mix/" ".m2/" ".local/" ".lesshst" ".lein/" ".ivy2/" ".IdeaIC14/" ".hex/" ".gitconfig" ".ghc/" ".emacs~" ".emacs.d/" ".emacs" ".electron/" ".DS_Store" ".dotnet/" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".boot2docker/" ".bashrc~" ".bashrc" ".bash_sessions/" ".bash_history" ".babel.json" ".aws/" ".atom/" ".android/" ".ackrc" "../" "./")
 
- ("/Users/josh/code/js/leetcode/" (22676 9102 0 0) "addTwoNumbers.js~" "addTwoNumbers.js" "../" "./")
+ ("/Users/josh/code/js/leetcode/" (22677 35570 0 0) "addTwoNumbers.js~" "addTwoNumbers.js" "../" "./")
+
+ ("/Applications/Emacs.app/Contents/Resources/lisp/progmodes/" (22677 32518 0 0) "xscheme.elc" "xscheme.el.gz" "xref.elc" "xref.el.gz" "which-func.elc" "which-func.el.gz" "vhdl-mode.elc" "vhdl-mode.el.gz" "verilog-mode.elc" "verilog-mode.el.gz" "vera-mode.elc" "vera-mode.el.gz" "tcl.elc" "tcl.el.gz" "subword.elc" "subword.el.gz" "sql.elc" "sql.el.gz" "simula.elc" "simula.el.gz" "sh-script.elc" "sh-script.el.gz" "scheme.elc" "scheme.el.gz" "ruby-mode.elc" "ruby-mode.el.gz" "python.elc" "python.el.gz" "ps-mode.elc" "ps-mode.el.gz" "prolog.elc" "prolog.el.gz" "project.elc" "project.el.gz" "prog-mode.elc" "prog-mode.el.gz" "perl-mode.elc" "perl-mode.el.gz" "pascal.elc" "pascal.el.gz" "opascal.elc" "opascal.el.gz" "octave.elc" "octave.el.gz" "modula2.elc" "modula2.el.gz" "mixal-mode.elc" "mixal-mode.el.gz" "meta-mode.elc" "meta-mode.el.gz" "mantemp.elc" "mantemp.el.gz" "make-mode.elc" "make-mode.el.gz" "m4-mode.elc" "m4-mode.el.gz" "ld-script.elc" "ld-script.el.gz" "js.elc" "js.el.gz" "inf-lisp.elc" "inf-lisp.el.gz" "idlwave.elc" "idlwave.el.gz" "idlw-toolbar.elc" "idlw-toolbar.el.gz" "idlw-shell.elc" "idlw-shell.el.gz" "idlw-help.elc" "idlw-help.el.gz" "idlw-complete-structtag.elc" "idlw-complete-structtag.el.gz" "icon.elc" "icon.el.gz" "hideshow.elc" "hideshow.el.gz" "hideif.elc" "hideif.el.gz" "gud.elc" "gud.el.gz" "grep.elc" "grep.el.gz" "glasses.elc" "glasses.el.gz" "gdb-mi.elc" "gdb-mi.el.gz" "fortran.elc" "fortran.el.gz" "flymake.elc" "flymake.el.gz" "f90.elc" "f90.el.gz" "executable.elc" "executable.el.gz" "etags.elc" "etags.el.gz" "elisp-mode.elc" "elisp-mode.el.gz" "ebrowse.elc" "ebrowse.el.gz" "ebnf2ps.elc" "ebnf2ps.el.gz" "ebnf-yac.elc" "ebnf-yac.el.gz" "ebnf-otz.elc" "ebnf-otz.el.gz" "ebnf-iso.elc" "ebnf-iso.el.gz" "ebnf-ebx.elc" "ebnf-ebx.el.gz" "ebnf-dtd.elc" "ebnf-dtd.el.gz" "ebnf-bnf.elc" "ebnf-bnf.el.gz" "ebnf-abn.elc" "ebnf-abn.el.gz" "dcl-mode.elc" "dcl-mode.el.gz" "cwarn.elc" "cwarn.el.gz" "cpp.elc" "cpp.el.gz" "cperl-mode.elc" "cperl-mode.el.gz" "compile.elc" "compile.el.gz" "cmacexp.elc" "cmacexp.el.gz" "cfengine.elc" "cfengine.el.gz" "cc-vars.elc" "cc-vars.el.gz" "cc-styles.elc" "cc-styles.el.gz" "cc-mode.elc" "cc-mode.el.gz" "cc-menus.elc" "cc-menus.el.gz" "cc-langs.elc" "cc-langs.el.gz" "cc-guess.elc" "cc-guess.el.gz" "cc-fonts.elc" "cc-fonts.el.gz" "cc-engine.elc" "cc-engine.el.gz" "cc-defs.elc" "cc-defs.el.gz" "cc-cmds.elc" "cc-cmds.el.gz" "cc-bytecomp.elc" "cc-bytecomp.el.gz" "cc-awk.elc" "cc-awk.el.gz" "cc-align.elc" "cc-align.el.gz" "bug-reference.elc" "bug-reference.el.gz" "bat-mode.elc" "bat-mode.el.gz" "autoconf.elc" "autoconf.el.gz" "asm-mode.elc" "asm-mode.el.gz" "antlr-mode.elc" "antlr-mode.el.gz" "ada-xref.elc" "ada-xref.el.gz" "ada-stmt.elc" "ada-stmt.el.gz" "ada-prj.elc" "ada-prj.el.gz" "ada-mode.elc" "ada-mode.el.gz" "../" "./")
 
  ("/Users/josh/code/cljs-playgrounds/" (22227 62239 0 0) "src/" "out/" "index.html" "cljs.jar" "build.clj" "../" "./")
 
