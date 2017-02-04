@@ -34,7 +34,7 @@
  '(cua-normal-cursor-color "#839496")
  '(cua-overwrite-cursor-color "#b58900")
  '(cua-read-only-cursor-color "#859900")
- '(custom-enabled-themes (quote (madhat2r)))
+ '(custom-enabled-themes (quote (sanityinc-tomorrow-night)))
  '(custom-safe-themes
    (quote
     ("0b7ee9bac81558c11000b65100f29b09488ff9182c083fb303c7f13fd0ec8d2b" "06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" "a27c00821ccfd5a78b01e4f35dc056706dd9ede09a8b90c6955ae6a390eb1c1e" "8db4b03b9ae654d4a57804286eb3e332725c84d7cdab38463cb6b97d5762ad26" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "ba3c5da197000aaf2f5514bef814b4d8bf1b6de7309b9fcd682ec26aa6a16fd2" default)))
@@ -68,7 +68,7 @@
     ("#dc322f" "#cb4b16" "#b58900" "#546E00" "#B4C342" "#00629D" "#2aa198" "#d33682" "#6c71c4")))
  '(package-selected-packages
    (quote
-    (madhat2r-theme fiplr browse-kill-ring xref-js2 tern-context-coloring tern-auto-complete web-beautify js-comint js-format js-import js2-closure smart-forward expand-region nyan-mode nyan-prompt magit discover-my-major auto-complete restclient web-mode clojure-snippets clojurescript-mode clj-refactor exec-path-from-shell flycheck-flow flycheck-clojure flycheck use-package company-flow init-open-recentf sync-recentf multiple-cursors anzu popwin direx all-the-icons all-the-icons-dired neotree smart-mode-line smart-mode-line-powerline-theme dired+ dired-rainbow dired-details dired-subtree ranger jade icicles ido-grid-mode ido-ubiquitous ido-vertical-mode smex color-theme-sanityinc-tomorrow monokai-theme solarized-theme paredit clojure-quick-repls clojars js2-mode)))
+    (madhat2r-theme fiplr browse-kill-ring xref-js2 tern-context-coloring tern-auto-complete web-beautify js-comint js-format smart-forward expand-region nyan-mode nyan-prompt magit discover-my-major auto-complete restclient web-mode clojure-snippets clojurescript-mode clj-refactor exec-path-from-shell flycheck-flow flycheck-clojure flycheck use-package company-flow init-open-recentf sync-recentf multiple-cursors anzu popwin direx all-the-icons all-the-icons-dired neotree smart-mode-line smart-mode-line-powerline-theme dired+ dired-rainbow dired-details dired-subtree ranger icicles ido-grid-mode ido-ubiquitous ido-vertical-mode smex color-theme-sanityinc-tomorrow monokai-theme solarized-theme paredit clojure-quick-repls clojars js2-mode)))
  '(pos-tip-background-color "#073642")
  '(pos-tip-foreground-color "#93a1a1")
  '(smartrep-mode-line-active-bg (solarized-color-blend "#859900" "#073642" 0.2))
@@ -131,8 +131,6 @@
 ;;(ido-vertical-mode 1)
 ;;(setq ido-vertical-define-keys 'C-n-and-C-p-only)
 
-;;sanityinc-tomorrow-night
-
 ;; Line Numbers
 (global-linum-mode t)
 
@@ -153,28 +151,14 @@
 (require 'magit)
 (global-set-key (kbd "C-x M-g") 'magit-dispatch-popup)
 
-;; Smart mode line
-;;(setq sml/no-confirm-load-theme t)
-;;(setq sml/theme 'dark)
-;;(sml/setup)
-
 ;; Neotree
 (require 'neotree)
-;;(global-set-key [f8] 'neotree-toggle)
 (global-set-key [f5] 'neotree-toggle)
-;;(setq neo-theme (if (display-graphic-p) 'icons 'arrow))
 (setq neo-smart-open t)
 
 ;; Popwin
 (require 'popwin)
 (popwin-mode 1)
-
-;; Direx
-;;(require 'direx)
-;;(global-set-key (kbd "C-x C-j") 'direx:jump-to-directory)
-;; (push '(direx:direx-mode :position left :width 25 :dedicated t)
-;;        popwin:special-display-config)
-;; (global-set-key (kbd "C-c C-j") 'direx:jump-to-directory-other-window)
 
 ;; Anzu
 (global-anzu-mode +1)
@@ -184,9 +168,7 @@
 
 ;; Multiple Cursors
 (require 'multiple-cursors)
-;;(global-set-key (kbd "C-S-c C-S-c") 'edit-lines)
 (global-set-key (kbd "C-c l") 'mc/mark-next-like-this)
-;;(global-set-key (kbd "C-<") 'mark-previous-like-this)
 (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
 
 ;; Dired
@@ -217,9 +199,6 @@
 ;; Autocomplete
 (ac-config-default)
 
-;; Ac-js2 mode
-(add-hook 'js2-mode-hook 'ac-js2-mode)
-
 ;; Restclient
 (require 'restclient)
 
@@ -234,13 +213,9 @@
 (global-set-key (kbd "M-<left>") 'smart-left)
 (global-set-key (kbd "M-<right>") 'smart-right)
 
-;; Expand region
-(require 'expand-region)
-;;(global-set-key (kbd "C-=") 'er/expand-region)
-
 ;; Flipr
-(require 'fiplr)
-(global-set-key (kbd "C-x f") 'fiplr-find-file)
+ (require 'fiplr)
+ (global-set-key (kbd "C-x f") 'fiplr-find-file)
 
 ;; Basic keybindings
 (global-set-key (kbd "S-C-<left>")  'shrink-window-horizontally)
@@ -252,6 +227,10 @@
 (browse-kill-ring-default-keybindings)
 
 ;;;;;;;;;;;;;;;;;;; Javascript ;;;;;;;;;;;;;;;;;;;
+;; js2-mode
+(add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
+(add-to-list 'interpreter-mode-alist '("node" . js2-mode))
+
 ;; Js2 refactor
 (require 'js2-refactor)
 (add-hook 'js2-mode-hook #'js2-refactor-mode)
@@ -259,10 +238,11 @@
 
 ;; JS comint
 (require 'js-comint)
-(setq inferior-js-program-command "/usr/bin/java org.mozilla.javascript.tools.shell.Main")
+;;(setq inferior-js-program-command "/usr/bin/java org.mozilla.javascript.tools.shell.Main -classpath")
+(setq inferior-js-program-command "/Users/josh/.nvm/versions/node/v7.2.1/bin/node")
 (add-hook 'js2-mode-hook '(lambda ()
 			    (local-set-key "\C-x\C-e" 'js-send-last-sexp)
-			    (local-set-key "\C-\M-x"  'js-send-last-sexp-and-go)
+			    (local-set-key "\C-c\C-e"  'js-send-last-sexp-and-go)
 			    (local-set-key "\C-cb"    'js-send-buffer)
 			    (local-set-key "\C-c\C-b" 'js-send-buffer-and-go)
 			    (local-set-key "\C-cl"    'js-load-file-and-go)))
@@ -280,10 +260,6 @@
 (eval-after-load 'js2-mode
   '(define-key js2-mode-map (kbd "C-c b") 'web-beautify-js))
 
-;; js2-closure
-(eval-after-load 'js2-mode
-  '(add-hook 'before-save-hook 'js2-closure-save-hook))
-
 ;; tern
 (add-to-list 'load-path "~/.emacs.d/vendor/tern/")
 (autoload 'tern-mode "tern.el" nil t)
@@ -298,15 +274,10 @@
 		       (tern-mode)
 		       (context-coloring-mode))))
 
-;; xref-js2
+;;xref-js2
 (define-key js2-mode-map (kbd "M-.") nil)
 (add-hook 'js2-mode-hook (lambda ()
 			   (add-hook 'xref-backend-functions #'xref-js2-xref-backend nil t)))
-
-;; Jade
-;; chrome --remote-debugging-port=9222 https://gnu.org
-(require 'jade)
-(global-set-key (kbd ))
 
 (provide '.emacs)
 ;;; .emacs ends here
