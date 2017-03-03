@@ -15,7 +15,7 @@ Mostly customized for javascript and clojure development
     * "s" to stage files
     * "c c" to commit
     * "C-c C-c" to actually commit after writing commit message
-    * "P u" to git push
+    * "P p" to git push origin master
 
 * [Expand Region](https://github.com/magnars/expand-region.el)
   * "C-c =" expand region
