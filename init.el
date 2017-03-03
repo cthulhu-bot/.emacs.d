@@ -131,6 +131,11 @@
 ;;(ido-vertical-mode 1)
 ;;(setq ido-vertical-define-keys 'C-n-and-C-p-only)
 
+;; Expand Region
+(require 'expand-region)
+(global-set-key (kbd "C-c =") 'er/expand-region)
+(global-set-key (kbd "C-c -") 'er/contract-region)
+
 ;;;;;;;;;;;;;; Org Mode ;;;;;;;;;;;;;;;;;;;;;;
 (require 'org)
 (define-key global-map "\C-cl" 'org-store-link)

@@ -8,7 +8,18 @@ Mostly customized for javascript and clojure development
 ## Add some shit here to remind yourself about some useful ass keybindings
 
 * [Magit](https://github.com/magit/magit)
-  * "C-x M-g" open magit
+  * "C-c g" open magit status
+  * "C-c C-g" open magit menu
+  * Magit workflow:
+    * "C-c g" to open magit status
+    * "s" to stage files
+    * "c c" to commit
+    * "C-c C-c" to actually commit after writing commit message
+    * "P u" to git push
+
+* [Expand Region](https://github.com/magnars/expand-region.el)
+  * "C-c =" expand region
+  * "C-c -" contract region
 
 * [Tern](https://github.com/ternjs/tern)
   * Jump to definition

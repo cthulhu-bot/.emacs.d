@@ -1,4 +1,5 @@
 * Emacs Tasks
+** TODO Fix cider version not matching cider-nrepl version
 ** TODO Fix desktop file conflict when opening emacs
 ** TODO Change C-o to open a line below
 ** TODO Make ranger mode easier to access
@@ -6,5 +7,10 @@
 ** TODO Pirate more stuff out of rally-emacs
 ** TODO Switch to web mode when editing javascript
 ** TODO Figure out a good node repl for js
+** TODO Force C-v and M-v to goto bottom and top of page if at top/bottom of document
+** DONE Install and figure out how to use expand region
+   CLOSED: [2017-03-03 Fri 10:43]
+** DONE Open org mode file on startup
+   CLOSED: [2017-03-02 Thu 23:30]
 
 * Conversate Tasks
