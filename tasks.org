@@ -1,0 +1,10 @@
+* Emacs Tasks
+** TODO Fix desktop file conflict when opening emacs
+** TODO Change C-o to open a line below
+** TODO Make ranger mode easier to access
+** TODO Make the damn buffer list open in the same window
+** TODO Pirate more stuff out of rally-emacs
+** TODO Switch to web mode when editing javascript
+** TODO Figure out a good node repl for js
+
+* Conversate Tasks

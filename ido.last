@@ -2,14 +2,26 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/josh/code/conversate/" . "src/")
+ ("/Users/josh/code/conversate/src/clj/" . "conversate/")
+ ("/Users/josh/code/full-stack-boot-example/src/clj/" . "full_stack_boot_example/")
+ ("/Users/josh/code/full-stack-boot-example/src/" . "clj/")
+ ("/Users/josh/code/conversate/src/" . "clj/")
  ("/Users/josh/code/js/" . "leetcode/")
  ("/Users/" . "josh/")
- ("/Users/josh/code/" . "js/")
- ("/Users/josh/" . ".emacs.d/")
+ ("/Users/josh/code/" . "conversate/")
+ ("/Users/josh/" . "code/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/josh/code/conversate/src/clj/conversate/"
+ "/Users/josh/code/conversate/"
+ "/Users/josh/code/full-stack-boot-example/src/clj/full_stack_boot_example/"
+ "/Users/josh/code/full-stack-boot-example/"
+ "/Users/josh/code/conversate/src/clj/"
+ "/Users/josh/code/conversate/src/app/"
+ "/Users/josh/code/conversate/src/"
  "/Users/josh/.emacs.d/"
  "/Users/josh/"
  "/Users/josh/code/js/leetcode/"
@@ -20,20 +32,43 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "scraper.clj"
+ "build.boot"
+ "core.clj"
+ "boot.properties"
+ "README.md"
  "init.el"
  ".emacs"
- "README.md"
  "keybindings.md"
  ".bashrc"
  ".tern-config"
- "addTwoNumbers.js"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/josh/.emacs.d/" (22679 40615 0 0) "vendor/" "themes/" "recentf" "README.md" "network-security.data" "LICENSE" "init.el" "ido.last~" "ido.last" "elpa/" "bookmarks" "auto-save-list/" "ac-comphist.dat" ".gitignore" ".git/" ".emacs.desktop.lock" ".emacs.desktop" "../" "./")
+ ("/Users/josh/code/conversate/src/clj/conversate/" (22703 58514 0 0) "scraper.clj~" "scraper.clj" "core.clj~" "core.clj" "../" "./")
 
- ("/Users/josh/" (22679 40555 0 0) "VirtualBox VMs/" "Public/" "Projects/" "pokemon/" "Pictures/" "Music/" "Movies/" "Library/" "IdeaProjects/" "games/" "Downloads/" "Documents/" "Desktop/" "code/" "Blizzard/" "bin/" "Applications/" ".zshrc" ".vscode/" ".viminfo" ".vim/" ".v8flags.4.5.103.35.josh.json" ".Trash/" ".tmux.conf" ".tern-config~" ".tern-config" ".ssh/" ".sonic-pi/" ".smex-items" ".sbt/" ".rnd" ".oracle_jre_usage/" ".octave_hist" ".nvm/" ".nuget/" ".npm/" ".node_repl_history" ".node-gyp/" ".node/" ".mix/" ".m2/" ".local/" ".lesshst" ".lein/" ".ivy2/" ".IdeaIC14/" ".hex/" ".gitconfig" ".ghc/" ".emacs~" ".emacs.d/" ".electron/" ".DS_Store" ".dotnet/" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".boot2docker/" ".bashrc~" ".bashrc" ".bash_sessions/" ".bash_history" ".babel.json" ".aws/" ".atom/" ".android/" ".ackrc" "../" "./")
+ ("/Users/josh/.emacs.d/" (22703 58389 0 0) "vendor/" "themes/" "recentf" "README.md" "network-security.data" "LICENSE" "init.el~" "init.el" "ido.last~" "ido.last" "eshell/" "elpa/" "bookmarks" "auto-save-list/" "ac-comphist.dat" ".gitignore" ".git/" ".emacs.desktop.lock" ".emacs.desktop" "../" "./")
+
+ ("/Users/josh/code/conversate/" (22703 58466 0 0) "test/" "src/" "resources/" "README.md" "build.boot" "boot.properties" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/josh/" (22703 40634 0 0) "VirtualBox VMs/" "Public/" "Projects/" "pokemon/" "Pictures/" "Music/" "Movies/" "Library/" "IdeaProjects/" "games/" "Downloads/" "Documents/" "Desktop/" "code/" "Blizzard/" "bin/" "Applications/" ".zshrc" ".vscode/" ".viminfo" ".vim/" ".v8flags.4.5.103.35.josh.json" ".Trash/" ".tmux.conf" ".thumbnails/" ".tern-config~" ".tern-config" ".ssh/" ".sonic-pi/" ".smex-items" ".sbt/" ".rnd" ".oracle_jre_usage/" ".octave_hist" ".nvm/" ".nuget/" ".npm/" ".node_repl_history" ".node-gyp/" ".node/" ".mix/" ".m2/" ".local/" ".lesshst" ".lein/" ".ivy2/" ".IdeaIC14/" ".hex/" ".gitconfig" ".ghc/" ".emacs~" ".emacs.d/" ".electron/" ".DS_Store" ".dotnet/" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".boot2docker/" ".boot/" ".bashrc~" ".bashrc" ".bash_sessions/" ".bash_history" ".babel.json" ".aws/" ".atom/" ".android/" ".ackrc" "../" "./")
+
+ ("/Users/josh/code/conversate/src/clj/" (22703 44847 0 0) "conversate/" "../" "./")
+
+ ("/Users/josh/code/full-stack-boot-example/src/clj/full_stack_boot_example/" (22703 43984 0 0) "core.clj" "../" "./")
+
+ ("/Users/josh/code/full-stack-boot-example/src/clj/" (22703 43984 0 0) "full_stack_boot_example/" "../" "./")
+
+ ("/Users/josh/code/full-stack-boot-example/src/" (22703 43984 0 0) "cljs/" "cljc/" "clj/" "../" "./")
+
+ ("/Users/josh/code/full-stack-boot-example/" (22703 44653 0 0) "UNLICENSE" "target/" "src/" "resources/" "README.md" "build.boot" "boot.properties" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/josh/code/" (22703 43983 0 0) "zookeeper-3.5.1-alpha/" "webpack-app/" "undead/" "topcoder/" "superagent/" "scrape/" "run-me.sh" "rowan-shell/" "repl-reload/" "redux-sandbox/" "redux/" "react-slingshot/" "react/" "rally-emacs/" "racket/" "python/" "PokemonGo-Map/" "pokemap-webapp/" "pokemap-3/" "pokemap-2/" "pigeon/" "pgoapi/" "personalsite-redux/" "personalsite/" "parens-of-the-dead/" "node-pokemap/" "machine-learning/" "js/" "joshuastupplebeen.io/" "ipswich/" "hwapp/" "haskell/" "full-stack-boot-example/" "fs/" "food-for-naught/" "elixir-sandbox/" "electron-test/" "electron-quick-start/" "electron-browser/" "dead/" "create-lisp/" "coreclr-demo/" "coreclr/" "conversate/" "clojure/" "cljs-playgrounds/" "cljs/" "clj-playgrounds-02/" "clj-playgrounds/" "blessed/" "agents/" ".DS_Store" "../" "./")
+
+ ("/Users/josh/code/conversate/src/" (22703 39227 0 0) "clj/" "../" "./")
+
+ ("/Users/josh/code/conversate/src/app/" (22702 36033 0 0) "core.clj" "../" "./")
 
  ("/Users/josh/code/js/leetcode/" (22677 36568 0 0) "addTwoNumbers.js~" "addTwoNumbers.js" "../" "./")
 
@@ -42,8 +77,6 @@
  ("/Users/josh/code/cljs-playgrounds/" (22227 62239 0 0) "src/" "out/" "index.html" "cljs.jar" "build.clj" "../" "./")
 
  ("/Users/josh/code/js/" (22642 47111 0 0) "react/" "promises/" "leetcode/" "gulp/" "generators/" "bowling-game/" ".gitignore" ".git/" ".DS_Store" "../" "./")
-
- ("/Users/josh/code/" (22667 64983 0 0) "zookeeper-3.5.1-alpha/" "webpack-app/" "undead/" "topcoder/" "superagent/" "run-me.sh" "rowan-shell/" "repl-reload/" "redux-sandbox/" "redux/" "react-slingshot/" "react/" "rally-emacs/" "racket/" "python/" "PokemonGo-Map/" "pokemap-webapp/" "pokemap-3/" "pokemap-2/" "pigeon/" "pgoapi/" "personalsite-redux/" "personalsite/" "parens-of-the-dead/" "node-pokemap/" "machine-learning/" "js/" "joshuastupplebeen.io/" "ipswich/" "hwapp/" "haskell/" "fs/" "food-for-naught/" "elixir-sandbox/" "electron-test/" "electron-quick-start/" "electron-browser/" "dead/" "create-lisp/" "coreclr-demo/" "coreclr/" "clojure/" "cljs-playgrounds/" "cljs/" "clj-playgrounds-02/" "clj-playgrounds/" "blessed/" "agents/" ".DS_Store" "../" "./")
 
  ("/Users/josh/.emacs.d/vendor/emacs-powerline/" (22664 24478 0 0) "README.rst" "powerline.el" "AUTHORS" ".gitignore" ".git/" "../" "./")
 
