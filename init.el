@@ -246,6 +246,16 @@
 (global-set-key (kbd "C-c C-b") 'eval-buffer)
 
 (browse-kill-ring-default-keybindings)
+(setq scroll-error-top-bottom 'true)
+
+(defun open-line-below ()
+  (interactive)
+  (unless (eolp)
+    (end-of-line))
+  (newline-and-indent))
+(global-set-key (kbd "C-o") 'open-line-below)
+
+(global-set-key (kbd "C-x C-b") 'buffer-menu)
 
 ;;;;;;;;;;;;;;;;;;; Javascript ;;;;;;;;;;;;;;;;;;;
 ;; js2-mode
@@ -280,6 +290,7 @@
 ;; Web beautify
 (eval-after-load 'js2-mode
   '(define-key js2-mode-map (kbd "C-c b") 'web-beautify-js))
+(global-set-key (kbd "C-c b") 'web-beautify-js)
 
 ;; tern
 (add-to-list 'load-path "~/.emacs.d/vendor/tern/")
