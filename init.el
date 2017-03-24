@@ -68,7 +68,7 @@
     ("#dc322f" "#cb4b16" "#b58900" "#546E00" "#B4C342" "#00629D" "#2aa198" "#d33682" "#6c71c4")))
  '(package-selected-packages
    (quote
-    (paredit-everywhere ac-cider align-cljlet madhat2r-theme fiplr browse-kill-ring xref-js2 tern-context-coloring tern-auto-complete web-beautify js-comint js-format smart-forward expand-region nyan-mode nyan-prompt magit discover-my-major auto-complete restclient web-mode clojure-snippets clojurescript-mode clj-refactor exec-path-from-shell flycheck-flow flycheck-clojure flycheck use-package company-flow init-open-recentf sync-recentf multiple-cursors anzu popwin direx all-the-icons all-the-icons-dired neotree smart-mode-line smart-mode-line-powerline-theme dired+ dired-rainbow dired-details dired-subtree ranger icicles ido-grid-mode ido-ubiquitous ido-vertical-mode smex color-theme-sanityinc-tomorrow monokai-theme solarized-theme paredit clojure-quick-repls clojars js2-mode)))
+    (web request paredit-everywhere ac-cider align-cljlet madhat2r-theme fiplr browse-kill-ring xref-js2 tern-context-coloring tern-auto-complete web-beautify js-comint js-format smart-forward expand-region nyan-mode nyan-prompt magit discover-my-major auto-complete restclient web-mode clojure-snippets clojurescript-mode clj-refactor exec-path-from-shell flycheck-flow flycheck-clojure flycheck use-package company-flow init-open-recentf sync-recentf multiple-cursors anzu popwin direx all-the-icons all-the-icons-dired neotree smart-mode-line smart-mode-line-powerline-theme dired+ dired-rainbow dired-details dired-subtree ranger icicles ido-grid-mode ido-ubiquitous ido-vertical-mode smex color-theme-sanityinc-tomorrow monokai-theme solarized-theme paredit clojure-quick-repls clojars js2-mode)))
  '(pos-tip-background-color "#073642")
  '(pos-tip-foreground-color "#93a1a1")
  '(smartrep-mode-line-active-bg (solarized-color-blend "#859900" "#073642" 0.2))
@@ -142,8 +142,8 @@
 (define-key global-map "\C-ca" 'org-agenda)
 (setq org-log-done t)
 ;; Open org file when emacs opens
-(setq org-default-notes-file "/Users/josh/.emacs.d/tasks.org"
-      initial-buffer-choice org-default-notes-file)
+;; (setq org-default-notes-file "/Users/josh/.emacs.d/tasks.org"
+;;       initial-buffer-choice org-default-notes-file)
 
 ;; Line Numbers
 (global-linum-mode t)
@@ -254,6 +254,7 @@
     (end-of-line))
   (newline-and-indent))
 (global-set-key (kbd "C-o") 'open-line-below)
+(global-set-key (kbd "C-S-o") 'open-line-above)
 
 (global-set-key (kbd "C-x C-b") 'buffer-menu)
 

@@ -1,11 +1,14 @@
 * Emacs Tasks
-** TODO Fix cider version not matching cider-nrepl version
+** TODO Change the window resize speed to be faster
+** TODO Enable paren highlighting opposite paren
 ** TODO Fix desktop file conflict when opening emacs
 ** TODO Figure out braindump solution
 ** TODO Make ranger mode easier to access
 ** TODO Switch to web mode when editing javascript
 ** TODO Figure out a good node repl for js
 ** TODO Pirate more stuff out of rally-emacs
+** DONE Fix cider version not matching cider-nrepl version
+   CLOSED: [2017-03-15 Wed 19:45]
 ** DONE Make the damn buffer list open in the same window
    CLOSED: [2017-03-03 Fri 17:58]
 ** DONE Change C-o to open a line below
@@ -16,10 +19,32 @@
    CLOSED: [2017-03-03 Fri 10:43]
 ** DONE Open org mode file on startup
    CLOSED: [2017-03-02 Thu 23:30]
+   
+* npm packages
+** TODO Finish random-object generator package
+** TODO Get a testing framework around generative testing of objects
+** TODO Use this generative testing framework for testing the deep diff package
+
+* elisp-docs.org
+** TODO Get started
 
 * org-rally
+** TODO Jesus christ how hard is it to get a zsessionid around here?
 ** TODO Log into rally via org-mode
 ** How do you even make rest requests in elisp
 ** How would you get notified of updates in org-mode? (websockets?)
 
+
+
+
 * Conversate Tasks
+
+* Master TODO List
+** TODO Npm package
+** TODO Fix testing output
+** TODO Redo website
+** TODO Build elispdocs.org
+** TODO Build clojure component package manager
+** TODO Build brain externalizer
+** TODO Practice game dev with three.js
+** TODO Practice canvas coding in js
