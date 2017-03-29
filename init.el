@@ -179,7 +179,7 @@
 (global-anzu-mode +1)
 
 ;; Save last desktop
-(desktop-save-mode 1)
+;; (desktop-save-mode 1)
 
 ;; Multiple Cursors
 (require 'multiple-cursors)
