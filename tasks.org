@@ -37,7 +37,11 @@
 
 
 
-* Conversate Tasks
+* Random-object
+** TODO update the readme to actually show what the package should be doing
+** in order to publish to npm run the following
+*** npm version 1.1.1
+*** git push --follow-tags
 
 * Master TODO List
 ** TODO Npm package
@@ -45,6 +49,7 @@
 ** TODO Redo website
 ** TODO Build elispdocs.org
 ** TODO Build clojure component package manager
+** TODO Build new fangled agile management software tool
 ** TODO Build brain externalizer
 ** TODO Practice game dev with three.js
 ** TODO Practice canvas coding in js
