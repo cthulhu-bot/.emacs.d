@@ -1,12 +1,16 @@
+#+TODO: TODO IN-PROGRESS | DONE CANCELLED
+
 * Emacs Tasks
+** TODO Setup addition org mode todo states
 ** TODO Change the window resize speed to be faster
 ** TODO Enable paren highlighting opposite paren
-** TODO Fix desktop file conflict when opening emacs
 ** TODO Figure out braindump solution
 ** TODO Make ranger mode easier to access
 ** TODO Switch to web mode when editing javascript
 ** TODO Figure out a good node repl for js
 ** TODO Pirate more stuff out of rally-emacs
+** DONE Fix desktop file conflict when opening emacs
+   CLOSED: [2017-04-06 Thu 09:38]
 ** DONE Fix cider version not matching cider-nrepl version
    CLOSED: [2017-03-15 Wed 19:45]
 ** DONE Make the damn buffer list open in the same window
@@ -20,13 +24,13 @@
 ** DONE Open org mode file on startup
    CLOSED: [2017-03-02 Thu 23:30]
    
+
 * npm packages
 ** TODO Finish random-object generator package
 ** TODO Get a testing framework around generative testing of objects
 ** TODO Use this generative testing framework for testing the deep diff package
+*** Check out quick-check first
 
-* elisp-docs.org
-** TODO Get started
 
 * org-rally
 ** TODO Jesus christ how hard is it to get a zsessionid around here?
@@ -39,14 +43,32 @@
 
 * Random-object
 ** TODO update the readme to actually show what the package should be doing
+** Generate the actual fucking object
+** Implement arrays at some future point
 ** in order to publish to npm run the following
 *** npm version 1.1.1
 *** git push --follow-tags
+
+
+* obj-deep-diff
+
+* elisp-docs.org
+** TODO Get started
+** Investigate clojure script
+*** reframe
+*** reagent
+*** figwheel
+
+
+* redo customized zsh setup
+** Figure out why reloading Brandon's rad shell kills the tab in iterm (has a fix for this on a radshell branch)
+** Investigate zshell plugins
 
 * Master TODO List
 ** TODO Npm package
 ** TODO Fix testing output
 ** TODO Redo website
+** TODO Generative React component testing
 ** TODO Build elispdocs.org
 ** TODO Build clojure component package manager
 ** TODO Build new fangled agile management software tool
