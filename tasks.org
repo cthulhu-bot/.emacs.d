@@ -1,7 +1,6 @@
 #+TODO: TODO IN-PROGRESS | DONE CANCELLED
 
 * Emacs Tasks
-** TODO Setup addition org mode todo states
 ** TODO Change the window resize speed to be faster
 ** TODO Enable paren highlighting opposite paren
 ** TODO Figure out braindump solution
@@ -9,6 +8,8 @@
 ** TODO Switch to web mode when editing javascript
 ** TODO Figure out a good node repl for js
 ** TODO Pirate more stuff out of rally-emacs
+** DONE Setup addition org mode todo states
+   CLOSED: [2017-04-08 Sat 14:35]
 ** DONE Fix desktop file conflict when opening emacs
    CLOSED: [2017-04-06 Thu 09:38]
 ** DONE Fix cider version not matching cider-nrepl version
@@ -26,7 +27,8 @@
    
 
 * npm packages
-** TODO Finish random-object generator package
+** IN-PROGRESS Finish random-object generator package
+** build an 'npm run clean' script into sandbox
 ** TODO Get a testing framework around generative testing of objects
 ** TODO Use this generative testing framework for testing the deep diff package
 *** Check out quick-check first
@@ -42,12 +44,22 @@
 
 
 * Random-object
+** TODO remove jest dependencies from the final published package
+** TODO Object Gen algo:
+*** Step 1: Generate the deepest object depth and place it into a random position in the object
+*** Step 2: Flip a coin for either object or string in other positions
+*** Step 3: If object generate one of less than or equal depth than the deepest object
+** TODO implement the backoff randomized percentage algo
 ** TODO update the readme to actually show what the package should be doing
-** Generate the actual fucking object
 ** Implement arrays at some future point
 ** in order to publish to npm run the following
 *** npm version 1.1.1
 *** git push --follow-tags
+** DONE Fix the fucking package.json so that installation actually fucking works
+   CLOSED: [2017-04-09 Sun 21:13]
+
+** DONE Generate the actual fucking object
+   CLOSED: [2017-04-08 Sat 14:33]
 
 
 * obj-deep-diff
@@ -63,6 +75,7 @@
 * redo customized zsh setup
 ** Figure out why reloading Brandon's rad shell kills the tab in iterm (has a fix for this on a radshell branch)
 ** Investigate zshell plugins
+
 
 * Master TODO List
 ** TODO Npm package
