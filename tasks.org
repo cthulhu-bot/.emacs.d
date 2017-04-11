@@ -1,6 +1,9 @@
 #+TODO: TODO IN-PROGRESS | DONE CANCELLED
 
 * Emacs Tasks
+** TODO Fix fucking web/js2 formatting (beautify)
+** TODO Setup addition org mode todo states
+>>>>>>> Stashed changes
 ** TODO Change the window resize speed to be faster
 ** TODO Enable paren highlighting opposite paren
 ** TODO Figure out braindump solution
@@ -34,6 +37,9 @@
 *** Check out quick-check first
 
 
+* atom-packages
+** TODO create a popover containing the expansion from the spread operator
+
 * org-rally
 ** TODO Jesus christ how hard is it to get a zsessionid around here?
 ** TODO Log into rally via org-mode
@@ -45,21 +51,24 @@
 
 * Random-object
 ** TODO remove jest dependencies from the final published package
-** TODO Object Gen algo:
-*** Step 1: Generate the deepest object depth and place it into a random position in the object
-*** Step 2: Flip a coin for either object or string in other positions
-*** Step 3: If object generate one of less than or equal depth than the deepest object
-** TODO implement the backoff randomized percentage algo
-** TODO update the readme to actually show what the package should be doing
 ** Implement arrays at some future point
 ** in order to publish to npm run the following
 *** npm version 1.1.1
 *** git push --follow-tags
+** DONE update the readme to actually show what the package should be doing
+   CLOSED: [2017-04-11 Tue 09:49]
+** DONE Object Gen algo:
+   CLOSED: [2017-04-11 Tue 09:48]
+*** Step 1: Generate the deepest object depth and place it into a random position in the object
+*** Step 2: Flip a coin for either object or string in other positions
+*** Step 3: If object generate one of less than or equal depth than the deepest object
 ** DONE Fix the fucking package.json so that installation actually fucking works
    CLOSED: [2017-04-09 Sun 21:13]
 
 ** DONE Generate the actual fucking object
    CLOSED: [2017-04-08 Sat 14:33]
+** CANCELLED implement the backoff randomized percentage algo
+   CLOSED: [2017-04-11 Tue 09:49]
 
 
 * obj-deep-diff
@@ -76,8 +85,7 @@
 ** Figure out why reloading Brandon's rad shell kills the tab in iterm (has a fix for this on a radshell branch)
 ** Investigate zshell plugins
 
-
-* Master TODO List
+* Coding Life
 ** TODO Npm package
 ** TODO Fix testing output
 ** TODO Redo website
@@ -88,3 +96,18 @@
 ** TODO Build brain externalizer
 ** TODO Practice game dev with three.js
 ** TODO Practice canvas coding in js
+
+* Normal Life
+** TODO Schedule Tattoo Finishing
+*** Call white lotus tattoo
+** Schedule Swimming Lessons
+*** Call utah pool
+** Schedule Piano Lessons
+*** Ugh find somebody
+** Build the damn nightstand
+** Plant the damn grass
+** Cut hedges in front yard
+** Practice code with rowan
+** Buy a house
+** Build a fusion reactor in garage (fusor)
+
