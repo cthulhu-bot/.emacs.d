@@ -50,11 +50,12 @@
 
 
 * Random-object
-** TODO remove jest dependencies from the final published package
 ** Implement arrays at some future point
 ** in order to publish to npm run the following
 *** npm version 1.1.1
 *** git push --follow-tags
+** DONE remove jest dependencies from the final published package
+   CLOSED: [2017-04-11 Tue 17:27]
 ** DONE update the readme to actually show what the package should be doing
    CLOSED: [2017-04-11 Tue 09:49]
 ** DONE Object Gen algo:
