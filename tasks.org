@@ -2,8 +2,7 @@
 
 * Emacs Tasks
 ** TODO Fix fucking web/js2 formatting (beautify)
-** TODO Setup addition org mode todo states
->>>>>>> Stashed changes
+** TODO Fix multiline commenting
 ** TODO Change the window resize speed to be faster
 ** TODO Enable paren highlighting opposite paren
 ** TODO Figure out braindump solution
@@ -46,9 +45,6 @@
 ** How do you even make rest requests in elisp
 ** How would you get notified of updates in org-mode? (websockets?)
 
-
-
-
 * Random-object
 ** Implement arrays at some future point
 ** in order to publish to npm run the following
@@ -63,9 +59,9 @@
 *** Step 1: Generate the deepest object depth and place it into a random position in the object
 *** Step 2: Flip a coin for either object or string in other positions
 *** Step 3: If object generate one of less than or equal depth than the deepest object
+=======
 ** DONE Fix the fucking package.json so that installation actually fucking works
    CLOSED: [2017-04-09 Sun 21:13]
-
 ** DONE Generate the actual fucking object
    CLOSED: [2017-04-08 Sat 14:33]
 ** CANCELLED implement the backoff randomized percentage algo
