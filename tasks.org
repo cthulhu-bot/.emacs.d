@@ -35,6 +35,8 @@
 ** TODO Use this generative testing framework for testing the deep diff package
 *** Check out quick-check first
 
+* joshuastupplebeen.io
+** figure out which framework to use, bootstrap/material
 
 * atom-packages
 ** TODO create a popover containing the expansion from the spread operator
@@ -81,6 +83,20 @@
 * redo customized zsh setup
 ** Figure out why reloading Brandon's rad shell kills the tab in iterm (has a fix for this on a radshell branch)
 ** Investigate zshell plugins
+
+* Brain Externalizer
+** Easy as shit note input
+** Really good tagging/categorization and search
+
+* JS Coding Items
+** Finish websocket work
+** Web workers
+** Canvas
+** React Motion
+** React Native
+** React VR
+** JS Observables
+** Material UI
 
 * Coding Life
 ** TODO Npm package
