@@ -69,7 +69,8 @@
 ** CANCELLED implement the backoff randomized percentage algo
    CLOSED: [2017-04-11 Tue 09:49]
 
-
+* Generative Testing
+** Enzyme
 * obj-deep-diff
 
 * elisp-docs.org
