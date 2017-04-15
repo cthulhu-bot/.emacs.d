@@ -289,9 +289,20 @@
 ;;(global-set-key (kbd "C-x j j") 'js-format-buffer)
 
 ;; Web beautify
-(eval-after-load 'js2-mode
-  '(define-key js2-mode-map (kbd "C-c b") 'web-beautify-js))
-(global-set-key (kbd "C-c b") 'web-beautify-js)
+;; (eval-after-load 'js2-mode
+;;   '(define-key js2-mode-map (kbd "C-c b") 'web-beautify-js))
+;; (global-set-key (kbd "C-c b") 'web-beautify-js)
+
+;; Prettier
+(add-to-list 'load-path "~/.emacs.d/vendor/prettier")
+(require 'prettier-js)
+(setq prettier-target-mode "js2-mode")
+(add-hook 'js2-mode-hook
+	  (lambda ()
+	    (add-hook 'before-save-hook 'prettier-before-save)))
+(setq prettier-args '(
+		      "--trailing-comma" "all"
+		      "--bracket-spacing" "false"))
 
 ;; tern
 (add-to-list 'load-path "~/.emacs.d/vendor/tern/")
