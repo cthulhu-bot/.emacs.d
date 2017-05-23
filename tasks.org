@@ -28,6 +28,9 @@
    CLOSED: [2017-03-02 Thu 23:30]
    
 
+* Websockets
+** 
+
 * npm packages
 ** IN-PROGRESS Finish random-object generator package
 ** build an 'npm run clean' script into sandbox
@@ -120,6 +123,8 @@
 *** Ugh find somebody
 ** Build the damn nightstand
 ** Plant the damn grass
+** Call the sleep specialist @ university
+** Replace her's and my glasses lenses
 ** Cut hedges in front yard
 ** Practice code with rowan
 ** Buy a house
