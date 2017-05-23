@@ -29,8 +29,6 @@
    
 
 * Websockets
-** 
-
 * npm packages
 ** IN-PROGRESS Finish random-object generator package
 ** build an 'npm run clean' script into sandbox
@@ -49,8 +47,16 @@
 ** TODO Log into rally via org-mode
 ** How do you even make rest requests in elisp
 ** How would you get notified of updates in org-mode? (websockets?)
-
-* Random-object
+* Generative Testing
+** Enzyme
+* obj-deep-diff
+* elisp-docs.org
+** TODO Get started
+** Investigate clojure script
+*** reframe
+*** reagent
+*** figwheel
+* DONE Random-object
 ** Implement arrays at some future point
 ** in order to publish to npm run the following
 *** npm version 1.1.1
@@ -71,17 +77,6 @@
    CLOSED: [2017-04-08 Sat 14:33]
 ** CANCELLED implement the backoff randomized percentage algo
    CLOSED: [2017-04-11 Tue 09:49]
-
-* Generative Testing
-** Enzyme
-* obj-deep-diff
-
-* elisp-docs.org
-** TODO Get started
-** Investigate clojure script
-*** reframe
-*** reagent
-*** figwheel
 
 
 * redo customized zsh setup
