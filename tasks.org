@@ -115,18 +115,22 @@
 ** TODO Practice canvas coding in js
 
 * Normal Life
-** TODO Schedule Tattoo Finishing
-*** Call white lotus tattoo
-** Schedule Swimming Lessons
-*** Call utah pool
+** TODO Replace her's and my glasses lenses 303.597.1640
+** TODO Schedule Dog Neutering 303-394-3937
+** TODO Schedule Swimming Lessons
+*** Call utah pool (303) 739-1530
+** Schedule Her Dentist - A Wild Smile - (720) 945-1234
+** Schedule Our Dentist - Awesome Dental Stapleton - (303) 355-1818
 ** Schedule Piano Lessons
 *** Ugh find somebody
 ** Build the damn nightstand
-** Plant the damn grass
-** Call the sleep specialist @ university
-** Replace her's and my glasses lenses
+** Build her bike and teach her how to ride
 ** Cut hedges in front yard
 ** Practice code with rowan
 ** Buy a house
 ** Build a fusion reactor in garage (fusor)
-
+** IN-PROGRESS Plant the damn grass
+** DONE Schedule Tattoo Finishing
+*** Call white lotus tattoo
+*** Scheduled for july 10th
+** DONE Call the sleep specialist @ university 855.586.4824
