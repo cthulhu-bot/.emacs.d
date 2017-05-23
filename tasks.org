@@ -102,6 +102,7 @@
 ** JS Observables
 ** Material UI
 
+   
 * Coding Life
 ** TODO Npm package
 ** TODO Fix testing output
@@ -114,6 +115,7 @@
 ** TODO Practice game dev with three.js
 ** TODO Practice canvas coding in js
 
+   
 * Normal Life
 ** TODO Replace her's and my glasses lenses 303.597.1640
 ** TODO Schedule Dog Neutering 303-394-3937
