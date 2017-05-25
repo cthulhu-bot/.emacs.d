@@ -112,14 +112,10 @@
 
    
 * Normal Life
-** TODO Replace her's and my glasses lenses 303.597.1640
-** TODO Schedule Dog Neutering 303-394-3937
-** TODO Schedule Swimming Lessons
-*** Call utah pool (303) 739-1530
-** Schedule Her Dentist - A Wild Smile - (720) 945-1234
-** Schedule Our Dentist - Awesome Dental Stapleton - (303) 355-1818
+** TODO Schedule Her Dentist - A Wild Smile - (720) 945-1234
 ** Schedule Piano Lessons
 *** Ugh find somebody
+** Schedule Our Dentist - Awesome Dental Stapleton - (303) 355-1818
 ** Build the damn nightstand
 ** Build her bike and teach her how to ride
 ** Cut hedges in front yard
@@ -127,6 +123,10 @@
 ** Buy a house
 ** Build a fusion reactor in garage (fusor)
 ** IN-PROGRESS Plant the damn grass
+** DONE Replace her's and my glasses lenses 303.597.1640
+** DONE Schedule Dog Neutering 303-394-3937
+** DONE Schedule Swimming Lessons
+*** Call utah pool (303) 739-1530
 ** DONE Schedule Tattoo Finishing
 *** Call white lotus tattoo
 *** Scheduled for july 10th
