@@ -26,8 +26,20 @@
    CLOSED: [2017-03-03 Fri 10:43]
 ** DONE Open org mode file on startup
    CLOSED: [2017-03-02 Thu 23:30]
-   
 
+   
+* TODO Performance testing using random object package
+** TODO Setup reusable package with circleci setup config
+** TODO Figure out how random object usage can be used to generate functional performance
+
+
+* Immutable Upsert
+** Init repo, ci and npm
+* TODO React Performance Triage Package
+** TODO npm init
+** TODO build out pipeline automation scripts
+* Typed Redux Monadic State (Initial, Loading, Error, etc)
+* jREPL
 * Websockets
 * npm packages
 ** IN-PROGRESS Finish random-object generator package
@@ -35,13 +47,10 @@
 ** TODO Get a testing framework around generative testing of objects
 ** TODO Use this generative testing framework for testing the deep diff package
 *** Check out quick-check first
-
 * joshuastupplebeen.io
 ** figure out which framework to use, bootstrap/material
-
 * atom-packages
 ** TODO create a popover containing the expansion from the spread operator
-
 * org-rally
 ** TODO Jesus christ how hard is it to get a zsessionid around here?
 ** TODO Log into rally via org-mode
@@ -78,7 +87,6 @@
 ** CANCELLED implement the backoff randomized percentage algo
    CLOSED: [2017-04-11 Tue 09:49]
 
-
 * redo customized zsh setup
 ** Figure out why reloading Brandon's rad shell kills the tab in iterm (has a fix for this on a radshell branch)
 ** Investigate zshell plugins
@@ -96,7 +104,6 @@
 ** React VR
 ** JS Observables
 ** Material UI
-
    
 * Coding Life
 ** TODO Npm package
@@ -110,9 +117,9 @@
 ** TODO Practice game dev with three.js
 ** TODO Practice canvas coding in js
 
-   
 * Normal Life
 ** IN-PROGRESS Replace her's and my glasses lenses 303.597.1640
+** TODO Find a therapist in boulder
 ** TODO Schedule Our Dentist - Awesome Dental Stapleton - (303) 355-1818
 ** Talk to Chris's mortgage person
 ** Schedule Piano Lessons
