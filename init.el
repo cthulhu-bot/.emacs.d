@@ -120,16 +120,11 @@
 (smex-initialize)
 (global-set-key (kbd "M-x") 'smex)
 (global-set-key (kbd "M-X") 'smex-major-mode-commands)
-(global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
 
 ;; IDO Mode
 (require 'ido)
 (ido-mode t)
 (ido-grid-mode 1)
-;;(Require 'ido-vertical-mode)
-;;(ido-mode 1)
-;;(ido-vertical-mode 1)
-;;(setq ido-vertical-define-keys 'C-n-and-C-p-only)
 
 ;; Expand Region
 (require 'expand-region)
@@ -141,9 +136,6 @@
 (define-key global-map "\C-cl" 'org-store-link)
 (define-key global-map "\C-ca" 'org-agenda)
 (setq org-log-done t)
-;; Open org file when emacs opens
-;; (setq org-default-notes-file "/Users/josh/.emacs.d/tasks.org"
-;;       initial-buffer-choice org-default-notes-file)
 
 ;; Line Numbers
 (global-linum-mode t)
@@ -155,11 +147,6 @@
 (fset 'open-ranger
    (lambda (&optional arg) "Keyboard macro." (interactive "p") (kmacro-exec-ring-item (quote ("[18~zp" 0 "%d")) arg)))
 (global-set-key [f6] 'open-ranger)
-
-;; Powerline
-(add-to-list 'load-path "~/.emacs.d/vendor/emacs-powerline")
-(require 'powerline)
-(setq powerline-arrow-shape 'arrow)
 
 ;; Magit
 (require 'magit)
@@ -178,10 +165,7 @@
 ;; Anzu
 (global-anzu-mode +1)
 
-;; Save last desktop
-;; (desktop-save-mode 1)
-
-;; Multiple Cursors
+;; Multiple Cursors - fix this
 (require 'multiple-cursors)
 (global-set-key (kbd "C-c l") 'mc/mark-next-like-this)
 (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
@@ -245,7 +229,6 @@
 (global-set-key (kbd "S-C-<up>") 'enlarge-window)
 (global-set-key (kbd "C-c C-b") 'eval-buffer)
 
-(browse-kill-ring-default-keybindings)
 (setq scroll-error-top-bottom 'true)
 
 (defun open-line-below ()
@@ -260,24 +243,19 @@
 
 ;;;;;;;;;;;;;;;;;;; Javascript ;;;;;;;;;;;;;;;;;;;
 ;; js2-mode
-(add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
-(add-to-list 'interpreter-mode-alist '("node" . js2-mode))
-
-;; Js2 refactor
-(require 'js2-refactor)
-(add-hook 'js2-mode-hook #'js2-refactor-mode)
-(js2r-add-keybindings-with-prefix "C-c C-m")
+;;(add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
+;;(add-to-list 'interpreter-mode-alist '("node" . js2-mode))
 
 ;; JS comint
-(require 'js-comint)
+;;(require 'js-comint)
 ;;(setq inferior-js-program-command "/usr/bin/java org.mozilla.javascript.tools.shell.Main -classpath")
-(setq inferior-js-program-command "/Users/josh/.nvm/versions/node/v7.2.1/bin/node")
-(add-hook 'js2-mode-hook '(lambda ()
-			    (local-set-key "\C-x\C-e" 'js-send-last-sexp)
-			    (local-set-key "\C-c\C-e"  'js-send-last-sexp-and-go)
-			    (local-set-key "\C-cb"    'js-send-buffer)
-			    (local-set-key "\C-c\C-b" 'js-send-buffer-and-go)
-			    (local-set-key "\C-cl"    'js-load-file-and-go)))
+;; (setq inferior-js-program-command "/Users/josh/.nvm/versions/node/v7.2.1/bin/node")
+;; (add-hook 'js2-mode-hook '(lambda ()
+;; 			    (local-set-key "\C-x\C-e" 'js-send-last-sexp)
+;; 			    (local-set-key "\C-c\C-e"  'js-send-last-sexp-and-go)
+;; 			    (local-set-key "\C-cb"    'js-send-buffer)
+;; 			    (local-set-key "\C-c\C-b" 'js-send-buffer-and-go)
+;; 			    (local-set-key "\C-cl"    'js-load-file-and-go)))
 
 ;; JS format
 ;; (setenv "PATH" (concat "/usr/local/bin/node:" (getenv "PATH")))
@@ -293,11 +271,11 @@
 ;;   '(define-key js2-mode-map (kbd "C-c b") 'web-beautify-js))
 ;; (global-set-key (kbd "C-c b") 'web-beautify-js)
 
-;; Prettier
+;; Prettier - fix this shit
 (add-to-list 'load-path "~/.emacs.d/vendor/prettier")
 (require 'prettier-js)
-(setq prettier-target-mode "js2-mode")
-(add-hook 'js2-mode-hook
+(setq prettier-target-mode "web-mode")
+(add-hook 'web-mode-hook
 	  (lambda ()
 	    (add-hook 'before-save-hook 'prettier-before-save)))
 (setq prettier-args '(
