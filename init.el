@@ -1,5 +1,7 @@
 ;;; package --- Summary
 (require 'package)
+(add-to-list 'load-path "~/.emacs.d")
+(add-to-list 'load-path "~/.emacs.d/vendor")
 
 ;;; Commentary:
 
@@ -163,12 +165,12 @@
 (popwin-mode 1)
 
 ;; Anzu
-(global-anzu-mode +1)
+;;(global-anzu-mode +1)
 
 ;; Multiple Cursors - fix this
-(require 'multiple-cursors)
-(global-set-key (kbd "C-c l") 'mc/mark-next-like-this)
-(global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
+;; (require 'multiple-cursors)
+;; (global-set-key (kbd "C-c l") 'mc/mark-next-like-this)
+;; (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
 
 ;; Dired
 (global-set-key [f7] (lambda ()
@@ -197,12 +199,12 @@
 (add-hook 'after-init-hook 'global-company-mode)
 
 ;; Flycheck
-(use-package flycheck
-  :ensure t
-  :init (global-flycheck-mode))
+;; (use-package flycheck
+;;   :ensure t
+;;   :init (global-flycheck-mode))
 
 ;; Autocomplete
-(ac-config-default)
+;;(ac-config-default)
 
 ;; Restclient
 (require 'restclient)
@@ -243,8 +245,8 @@
 
 ;;;;;;;;;;;;;;;;;;; Javascript ;;;;;;;;;;;;;;;;;;;
 ;; js2-mode
-;;(add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
-;;(add-to-list 'interpreter-mode-alist '("node" . js2-mode))
+(add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
+(add-to-list 'interpreter-mode-alist '("node" . js2-mode))
 
 ;; JS comint
 ;;(require 'js-comint)
@@ -271,35 +273,34 @@
 ;;   '(define-key js2-mode-map (kbd "C-c b") 'web-beautify-js))
 ;; (global-set-key (kbd "C-c b") 'web-beautify-js)
 
+;; WebMode
+;;(require 'web-mode)
+;;(add-to-list 'auto-mode-alist '("\\.js\\'" . web-mode))
+
 ;; Prettier - fix this shit
-(add-to-list 'load-path "~/.emacs.d/vendor/prettier")
+(add-to-list 'load-path "~/.emacs.d/vendor/prettier-emacs/")
 (require 'prettier-js)
-(setq prettier-target-mode "web-mode")
-(add-hook 'web-mode-hook
-	  (lambda ()
-	    (add-hook 'before-save-hook 'prettier-before-save)))
-(setq prettier-args '(
-		      "--trailing-comma" "all"
-		      "--bracket-spacing" "false"))
+;;(add-hook 'web-mode-hook 'prettier-js-mode)
+(add-hook 'js2-mode-hook 'prettier-js-mode)
 
 ;; tern
-(add-to-list 'load-path "~/.emacs.d/vendor/tern/")
-(autoload 'tern-mode "tern.el" nil t)
-(eval-after-load 'tern
-  '(progn
-     (require 'tern-auto-complete)
-     (tern-ac-setup)))
-(eval-after-load 'context-coloring
-  '(tern-context-coloring-setup))
-(add-hook 'js-mode (lambda ()
-		     (unless (eq major-mode 'json-mode)
-		       (tern-mode)
-		       (context-coloring-mode))))
+;; (add-to-list 'load-path "~/.emacs.d/vendor/tern/")
+;; (autoload 'tern-mode "tern.el" nil t)
+;; (eval-after-load 'tern
+;;   '(progn
+;;      (require 'tern-auto-complete)
+;;      (tern-ac-setup)))
+;; (eval-after-load 'context-coloring
+;;   '(tern-context-coloring-setup))
+;; (add-hook 'js-mode (lambda ()
+;; 		     (unless (eq major-mode 'json-mode)
+;; 		       (tern-mode)
+;; 		       (context-coloring-mode))))
 
 ;;xref-js2
-(define-key js2-mode-map (kbd "M-.") nil)
-(add-hook 'js2-mode-hook (lambda ()
-			   (add-hook 'xref-backend-functions #'xref-js2-xref-backend nil t)))
+;; (define-key js2-mode-map (kbd "M-.") nil)
+;; (add-hook 'js2-mode-hook (lambda ()
+;; 			   (add-hook 'xref-backend-functions #'xref-js2-xref-backend nil t)))
 
 (provide '.emacs)
 ;;; init.el ends here
