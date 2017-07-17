@@ -1,7 +1,7 @@
 ;;; package --- Summary
 (require 'package)
-(add-to-list 'load-path "~/.emacs.d")
-(add-to-list 'load-path "~/.emacs.d/vendor")
+;;(add-to-list 'load-path "~/.emacs.d")
+;;(add-to-list 'load-path "~/.emacs.d/vendor")
 
 ;;; Commentary:
 
@@ -70,7 +70,7 @@
     ("#dc322f" "#cb4b16" "#b58900" "#546E00" "#B4C342" "#00629D" "#2aa198" "#d33682" "#6c71c4")))
  '(package-selected-packages
    (quote
-    (web request paredit-everywhere ac-cider align-cljlet madhat2r-theme fiplr browse-kill-ring xref-js2 tern-context-coloring tern-auto-complete web-beautify js-comint js-format smart-forward expand-region nyan-mode nyan-prompt magit discover-my-major auto-complete restclient web-mode clojure-snippets clojurescript-mode clj-refactor exec-path-from-shell flycheck-flow flycheck-clojure flycheck use-package company-flow init-open-recentf sync-recentf multiple-cursors anzu popwin direx all-the-icons all-the-icons-dired neotree smart-mode-line smart-mode-line-powerline-theme dired+ dired-rainbow dired-details dired-subtree ranger icicles ido-grid-mode ido-ubiquitous ido-vertical-mode smex color-theme-sanityinc-tomorrow monokai-theme solarized-theme paredit clojure-quick-repls clojars js2-mode)))
+    (js-comint prettier-js web request paredit-everywhere ac-cider align-cljlet madhat2r-theme fiplr browse-kill-ring xref-js2 tern-context-coloring tern-auto-complete web-beautify js-format smart-forward expand-region nyan-mode nyan-prompt magit discover-my-major auto-complete restclient web-mode clojure-snippets clojurescript-mode clj-refactor exec-path-from-shell flycheck-flow flycheck-clojure flycheck use-package company-flow init-open-recentf sync-recentf multiple-cursors anzu popwin direx all-the-icons all-the-icons-dired neotree smart-mode-line smart-mode-line-powerline-theme dired+ dired-rainbow dired-details dired-subtree ranger icicles ido-grid-mode ido-ubiquitous ido-vertical-mode smex color-theme-sanityinc-tomorrow monokai-theme solarized-theme paredit clojure-quick-repls clojars js2-mode)))
  '(pos-tip-background-color "#073642")
  '(pos-tip-foreground-color "#93a1a1")
  '(smartrep-mode-line-active-bg (solarized-color-blend "#859900" "#073642" 0.2))
@@ -130,8 +130,8 @@
 
 ;; Expand Region
 (require 'expand-region)
-(global-set-key (kbd "C-c =") 'er/expand-region)
-(global-set-key (kbd "C-c -") 'er/contract-region)
+(global-set-key (kbd "C-c ;") 'er/expand-region)
+(global-set-key (kbd "C-c j") 'er/contract-region)
 
 ;;;;;;;;;;;;;; Org Mode ;;;;;;;;;;;;;;;;;;;;;;
 (require 'org)
@@ -249,15 +249,19 @@
 (add-to-list 'interpreter-mode-alist '("node" . js2-mode))
 
 ;; JS comint
-;;(require 'js-comint)
+(require 'js-comint)
+(defun inferior-js-mode-hook-setup ()
+  (add-hook 'comint-output-filter-functions 'js-comint-process-output))
+(add-hook 'inferior-js-mode-hook 'inferior-js-mode-hook-setup t)
+
 ;;(setq inferior-js-program-command "/usr/bin/java org.mozilla.javascript.tools.shell.Main -classpath")
 ;; (setq inferior-js-program-command "/Users/josh/.nvm/versions/node/v7.2.1/bin/node")
-;; (add-hook 'js2-mode-hook '(lambda ()
-;; 			    (local-set-key "\C-x\C-e" 'js-send-last-sexp)
-;; 			    (local-set-key "\C-c\C-e"  'js-send-last-sexp-and-go)
-;; 			    (local-set-key "\C-cb"    'js-send-buffer)
-;; 			    (local-set-key "\C-c\C-b" 'js-send-buffer-and-go)
-;; 			    (local-set-key "\C-cl"    'js-load-file-and-go)))
+(add-hook 'js2-mode-hook '(lambda ()
+			    (local-set-key "\C-x\C-e" 'js-send-last-sexp)
+			    (local-set-key "\C-c\C-e"  'js-send-last-sexp-and-go)
+			    (local-set-key "\C-cb"    'js-send-buffer)
+			    (local-set-key "\C-c\C-b" 'js-send-buffer-and-go)
+			    (local-set-key "\C-cl"    'js-load-file-and-go)))
 
 ;; JS format
 ;; (setenv "PATH" (concat "/usr/local/bin/node:" (getenv "PATH")))
@@ -278,10 +282,22 @@
 ;;(add-to-list 'auto-mode-alist '("\\.js\\'" . web-mode))
 
 ;; Prettier - fix this shit
-(add-to-list 'load-path "~/.emacs.d/vendor/prettier-emacs/")
-(require 'prettier-js)
+;;(add-to-list 'load-path "~/.emacs.d/vendor/prettier-js")
+;;(require 'prettier-js)
+
+(use-package prettier-js
+  :commands (prettier-js-mode prettier-js)
+  :init (add-hook 'js2-mode-hook 'prettier-js-mode)
+  :bind (:map js2-mode-map ("M-q" . prettier-js))
+  :config
+  (setq prettier-target-mode "js2-mode")
+  (setq prettier-js-args '(
+    "--trailing-comma" "all"
+    "--bracket-spacing" "false")))
+
 ;;(add-hook 'web-mode-hook 'prettier-js-mode)
-(add-hook 'js2-mode-hook 'prettier-js-mode)
+;; (add-hook 'js2-mode-hook 'prettier-js-mode)
+;; (global-set-key (kbd "M-q") 'prettier-js)
 
 ;; tern
 ;; (add-to-list 'load-path "~/.emacs.d/vendor/tern/")
