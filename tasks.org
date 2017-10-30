@@ -1,5 +1,32 @@
 #+TODO: TODO IN-PROGRESS | DONE CANCELLED
 
+* Rally brain dump
+** 
+
+
+* joshuastupplebeen.io
+** build title
+** build posts and post expansion into cards
+** figure out prefetch loading of cards into infinite scroller
+** TODO figure out which framework to use, bootstrap/material
+
+
+* yarn-lock-parser
+
+* yarn-lock-to-shrinkwrap
+
+* shrinkwrap-parser
+
+* temporal-collections
+
+* org-rally
+** DONE Jesus christ how hard is it to get a zsessionid around here?
+   CLOSED: [2017-10-30 Mon 10:15]
+** TODO Log into rally via org-mode
+** How do you even make rest requests in elisp
+** How would you get notified of updates in org-mode? (websockets?)
+
+
 * Emacs Tasks
 ** TODO Fix fucking web/js2 formatting (beautify)
 ** TODO Fix multiline commenting
@@ -42,20 +69,15 @@
 * jREPL
 * Websockets
 * npm packages
-** IN-PROGRESS Finish random-object generator package
+** DONE Finish random-object generator package
+   CLOSED: [2017-10-30 Mon 10:14]
 ** build an 'npm run clean' script into sandbox
 ** TODO Get a testing framework around generative testing of objects
 ** TODO Use this generative testing framework for testing the deep diff package
 *** Check out quick-check first
-* joshuastupplebeen.io
-** figure out which framework to use, bootstrap/material
+
 * atom-packages
 ** TODO create a popover containing the expansion from the spread operator
-* org-rally
-** TODO Jesus christ how hard is it to get a zsessionid around here?
-** TODO Log into rally via org-mode
-** How do you even make rest requests in elisp
-** How would you get notified of updates in org-mode? (websockets?)
 * Generative Testing
 ** Enzyme
 * obj-deep-diff
@@ -118,19 +140,24 @@
 ** TODO Practice canvas coding in js
 
 * Normal Life
-** IN-PROGRESS Replace her's and my glasses lenses 303.597.1640
-** TODO Find a therapist in boulder
+** IN-PROGRESS Build her bike and teach her how to ride
+** TODO Talk to Chris's mortgage person
 ** TODO Schedule Our Dentist - Awesome Dental Stapleton - (303) 355-1818
-** Talk to Chris's mortgage person
 ** Schedule Piano Lessons
 *** Ugh find somebody
-** Build the damn nightstand
-** Build her bike and teach her how to ride
-** Cut hedges in front yard
 ** Practice code with rowan
 ** Buy a house
 ** Build a fusion reactor in garage (fusor)
-** IN-PROGRESS Plant the damn grass
+** DONE Plant the damn grass
+   CLOSED: [2017-10-30 Mon 10:17]
+** DONE Find a therapist in boulder
+   CLOSED: [2017-10-30 Mon 10:16]
+** DONE Build the damn nightstand
+   CLOSED: [2017-10-30 Mon 10:16]
+** DONE Replace her's and my glasses lenses 303.597.1640
+   CLOSED: [2017-10-30 Mon 10:16]
+** DONE Cut hedges in front yard
+   CLOSED: [2017-10-30 Mon 10:16]
 ** DONE Schedule AF Williams Doctor Appointment - June 7th 10am
 ** DONE Schedule Her Dentist - A Wild Smile - (720) 945-1234 - June 13th 3pm
 ** DONE Schedule Dog Neutering 303-394-3937
