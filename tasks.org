@@ -128,16 +128,20 @@
 ** Material UI
    
 * Coding Life
-** TODO Npm package
+** IN-PROGRESS Redo website
+** IN-PROGRESS Practice canvas coding in js
+** Data science courses
+** 2D games with canvas and websocket backend
+** OCaml with bucklescript and reason
 ** TODO Fix testing output
-** TODO Redo website
 ** TODO Generative React component testing
 ** TODO Build elispdocs.org
 ** TODO Build clojure component package manager
 ** TODO Build new fangled agile management software tool
 ** TODO Build brain externalizer
 ** TODO Practice game dev with three.js
-** TODO Practice canvas coding in js
+** DONE Npm package
+   CLOSED: [2017-11-02 Thu 10:02]
 
 * Normal Life
 ** IN-PROGRESS Build her bike and teach her how to ride
