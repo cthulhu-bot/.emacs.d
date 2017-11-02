@@ -118,6 +118,9 @@
 ** Really good tagging/categorization and search
 
 * JS Coding Items
+** SharedArrayBuffer
+** GraphQL
+** Redux-Observable
 ** Finish websocket work
 ** Web workers
 ** Canvas
