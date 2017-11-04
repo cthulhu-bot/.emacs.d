@@ -11,9 +11,10 @@
 ** TODO figure out which framework to use, bootstrap/material
 
 
-* yarn-lock-parser
-
 * yarn-lock-to-shrinkwrap
+** rewrite to just use the invokation path's yarn.lock
+** find some kind of progress bar to indicate (progress)
+   
 
 * shrinkwrap-parser
 
@@ -116,6 +117,7 @@
 * Brain Externalizer
 ** Easy as shit note input
 ** Really good tagging/categorization and search
+** separate note taking from brain dump
 
 * JS Coding Items
 ** SharedArrayBuffer
