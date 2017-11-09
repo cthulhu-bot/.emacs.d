@@ -16,7 +16,16 @@
 ** find some kind of progress bar to indicate (progress)
    
 
+* fuct working group
+** consistency
+** Dave's fetch component
+** churro api interfaces
+** composable components
+
+
 * shrinkwrap-parser
+
+* shadow-redux
 
 * temporal-collections
 
