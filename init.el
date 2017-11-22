@@ -243,6 +243,9 @@
 
 (global-set-key (kbd "C-x C-b") 'buffer-menu)
 
+;; Paren Highlighting
+(show-paren-mode 1)
+
 ;;;;;;;;;;;;;;;;;;; Javascript ;;;;;;;;;;;;;;;;;;;
 ;; js2-mode
 (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
