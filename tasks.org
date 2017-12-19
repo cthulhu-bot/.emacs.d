@@ -1,27 +1,18 @@
 #+TODO: TODO IN-PROGRESS | DONE CANCELLED
 
-* Rally brain dump
-** 
-
-
 * joshuastupplebeen.io
-** build title
-** build posts and post expansion into cards
+** TODO finish avatar
+** build posts
+** compose card preview and full card toggle
 ** figure out prefetch loading of cards into infinite scroller
-** TODO figure out which framework to use, bootstrap/material
+** DONE build title
+** DONE figure out which framework to use, bootstrap/material
 
 
 * yarn-lock-to-shrinkwrap
 ** rewrite to just use the invokation path's yarn.lock
 ** find some kind of progress bar to indicate (progress)
    
-
-* fuct working group
-** consistency
-** Dave's fetch component
-** churro api interfaces
-** composable components
-
 
 * shrinkwrap-parser
 
