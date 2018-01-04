@@ -1,19 +1,38 @@
-#+TODO: TODO IN-PROGRESS | DONE CANCELLED
+#+TODO: TODO IN-PROGRESS STRETCH | DONE CANCELLED
 
 * joshuastupplebeen.io
-** TODO finish avatar
-** build posts
-** compose card preview and full card toggle
-** figure out prefetch loading of cards into infinite scroller
-** DONE build title
+** TODO build contacts page
+** TODO build portfolio page
+** STRETCH figure out prefetch loading of cards into infinite scroller
+** DONE figure out nav state switch based on reframe state
+   CLOSED: [2018-01-04 Thu 10:40]
+** DONE figure out card preview/fullview toggle with reframe state
+   CLOSED: [2018-01-04 Thu 10:40]
+** DONE finish avatar
+   CLOSED: [2018-01-04 Thu 10:40]
+** DONE compose card full view
+   CLOSED: [2018-01-04 Thu 10:40]
+** DONE compose top level page view that nav state will swap out
+   CLOSED: [2018-01-04 Thu 10:39]
+** DONE compose card preview
+   CLOSED: [2017-12-28 Thu 14:24]
+** DONE build nav
 ** DONE figure out which framework to use, bootstrap/material
 
+
+* cljs
+** TODO investigate closure compiler externs
+** TODO investigate building externs for truffle lib
+** TODO investigate running cljs with node
+** TODO investigate using cljsjs packages
 
 * yarn-lock-to-shrinkwrap
 ** rewrite to just use the invokation path's yarn.lock
 ** find some kind of progress bar to indicate (progress)
    
 
+* babel cljs transform
+   
 * shrinkwrap-parser
 
 * shadow-redux
@@ -120,6 +139,7 @@
 ** separate note taking from brain dump
 
 * JS Coding Items
+  
 ** SharedArrayBuffer
 ** GraphQL
 ** Redux-Observable
@@ -131,7 +151,7 @@
 ** React VR
 ** JS Observables
 ** Material UI
-   
+
 * Coding Life
 ** IN-PROGRESS Redo website
 ** IN-PROGRESS Practice canvas coding in js
