@@ -1,12 +1,13 @@
 #+TODO: TODO IN-PROGRESS STRETCH | DONE CANCELLED
 
 * joshuastupplebeen.io
-** TODO build contacts page
-** TODO build portfolio page
+** IN-PROGRESS build contacts page
+** IN-PROGRESS build portfolio page
+** IN-PROGRESS github icon links to projects
+** TODO figure out card preview/fullview toggle with reframe state
+** STRETCH build card macro
 ** STRETCH figure out prefetch loading of cards into infinite scroller
 ** DONE figure out nav state switch based on reframe state
-   CLOSED: [2018-01-04 Thu 10:40]
-** DONE figure out card preview/fullview toggle with reframe state
    CLOSED: [2018-01-04 Thu 10:40]
 ** DONE finish avatar
    CLOSED: [2018-01-04 Thu 10:40]
@@ -25,6 +26,7 @@
 ** TODO investigate building externs for truffle lib
 ** TODO investigate running cljs with node
 ** TODO investigate using cljsjs packages
+
 
 * yarn-lock-to-shrinkwrap
 ** rewrite to just use the invokation path's yarn.lock
