@@ -1,9 +1,6 @@
 #+TODO: TODO IN-PROGRESS STRETCH | DONE CANCELLED
 
 * joshuastupplebeen.io
-** IN-PROGRESS build contacts page
-** IN-PROGRESS build portfolio page
-** IN-PROGRESS github icon links to projects
 ** TODO refactor out post text into easier to use def only text files
 ** TODO figure out card preview/fullview toggle with reframe state
 ** TODO switch to luminus to retain actual routing history
@@ -12,6 +9,13 @@
 ** TODO write entry about onclick handler for re-com icon buttons
 ** TODO write entry about re-com layout with align right h-box
 ** TODO write entry about re-com border element overriding css styles
+** TODO write entry about how to deploy cljs project to production
+** DONE build portfolio page
+   CLOSED: [2018-01-05 Fri 16:14]
+** DONE github icon links to projects
+   CLOSED: [2018-01-05 Fri 16:14]
+** DONE build contacts page
+   CLOSED: [2018-01-05 Fri 16:14]
 ** DONE figure out nav state switch based on reframe state
    CLOSED: [2018-01-04 Thu 10:40]
 ** DONE finish avatar
@@ -32,6 +36,7 @@
 ** TODO investigate running cljs with node
 ** TODO investigate using cljsjs packages
 ** TODO investigate om next
+** TODO build terminal devcards
 
 * yarn-lock-to-shrinkwrap
 ** rewrite to just use the invokation path's yarn.lock
