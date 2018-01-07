@@ -38,6 +38,9 @@
 ** TODO investigate om next
 ** TODO build terminal devcards
 
+* temporal programming language
+** all data structures are temporal instead of immutable
+
 * yarn-lock-to-shrinkwrap
 ** rewrite to just use the invokation path's yarn.lock
 ** find some kind of progress bar to indicate (progress)
@@ -60,6 +63,7 @@
 
 
 * Emacs Tasks
+** Build devcards emacs browser integration
 ** TODO Fix fucking web/js2 formatting (beautify)
 ** TODO Fix multiline commenting
 ** TODO Change the window resize speed to be faster
