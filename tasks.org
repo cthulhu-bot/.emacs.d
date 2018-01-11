@@ -45,6 +45,9 @@
 ** rewrite to just use the invokation path's yarn.lock
 ** find some kind of progress bar to indicate (progress)
    
+* ast generator for solidity
+* use random-object for generative performance testing
+** graph performance output with iteratively larger/deeper object sizes
 
 * babel cljs transform
    
