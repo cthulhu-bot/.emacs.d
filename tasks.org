@@ -41,22 +41,11 @@
 * temporal programming language
 ** all data structures are temporal instead of immutable
 
-* yarn-lock-to-shrinkwrap
-** rewrite to just use the invokation path's yarn.lock
-** find some kind of progress bar to indicate (progress)
-   
-* ast generator for solidity
 * use random-object for generative performance testing
 ** graph performance output with iteratively larger/deeper object sizes
 
 * babel cljs transform
    
-* shrinkwrap-parser
-
-* shadow-redux
-
-* temporal-collections
-
 * org-rally
 ** DONE Jesus christ how hard is it to get a zsessionid around here?
    CLOSED: [2017-10-30 Mon 10:15]
@@ -64,6 +53,34 @@
 ** How do you even make rest requests in elisp
 ** How would you get notified of updates in org-mode? (websockets?)
 
+
+* timeline
+** implement web history
+*** use chrome to scrape web history?
+** implement git/github history
+** implement editor history
+** implement chat history
+** implement ci history
+** filtering
+** scoping
+   
+* TODO NPM Packages
+* sync package.json and package-lock.json
+* yarn-lock-to-shrinkwrap
+  
+** rewrite to just use the invokation path's yarn.lock
+** find some kind of progress bar to indicate (progress)
+   
+* shadow-redux
+
+* temporal-collections
+
+* Immutable Upsert
+** Init repo, ci and npm
+
+* Generative Testing
+** Enzyme
+* obj-deep-diff
 
 * Emacs Tasks
 ** Build devcards emacs browser integration
@@ -99,8 +116,6 @@
 ** TODO Figure out how random object usage can be used to generate functional performance
 
 
-* Immutable Upsert
-** Init repo, ci and npm
 * TODO React Performance Triage Package
 ** TODO npm init
 ** TODO build out pipeline automation scripts
@@ -108,18 +123,8 @@
 * jREPL
 * Websockets
 * npm packages
-** DONE Finish random-object generator package
-   CLOSED: [2017-10-30 Mon 10:14]
-** build an 'npm run clean' script into sandbox
-** TODO Get a testing framework around generative testing of objects
-** TODO Use this generative testing framework for testing the deep diff package
-*** Check out quick-check first
-
 * atom-packages
 ** TODO create a popover containing the expansion from the spread operator
-* Generative Testing
-** Enzyme
-* obj-deep-diff
 * elisp-docs.org
 ** TODO Get started
 ** Investigate clojure script
