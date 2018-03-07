@@ -30,6 +30,18 @@
 ** DONE figure out which framework to use, bootstrap/material
 
 
+* toggle-removal-package
+** scrape repo for toggle name
+** is a comment?
+** is an open/close tag with toggle name?
+** is it a <toggleName delete>
+*** find the closing <toggleName delete> tag and delete
+** figure out what to do with <toggleName change>
+** alter code and save
+** can this be a jenkins job?
+** also needs to occur in alm and any other associated repos
+*** could possibly be cli params
+
 * cljs
 ** TODO investigate closure compiler externs
 ** TODO investigate building externs for truffle lib
@@ -55,6 +67,8 @@
 
 
 * timeline
+** implement line o time
+***   
 ** implement web history
 *** use chrome to scrape web history?
 ** implement git/github history
@@ -163,7 +177,6 @@
 ** separate note taking from brain dump
 
 * JS Coding Items
-  
 ** SharedArrayBuffer
 ** GraphQL
 ** Redux-Observable
@@ -176,6 +189,10 @@
 ** JS Observables
 ** Material UI
 
+* Medium Posts
+** IN-PROGRESS Cljs lumo
+** Pairing Doesn't allow struggle for the individual to learn
+** Agile Breeds Mediocraty with no accountability
 * Coding Life
 ** IN-PROGRESS Redo website
 ** IN-PROGRESS Practice canvas coding in js
