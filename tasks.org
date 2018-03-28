@@ -30,6 +30,13 @@
 ** DONE figure out which framework to use, bootstrap/material
 
 
+* jumpcloud
+** finish updates
+** persist to the api layer
+** implement optimistic updates
+** style things
+** write tests if there is time
+   
 * toggle-removal-package
 ** scrape repo for toggle name
 ** is a comment?
@@ -37,6 +44,9 @@
 ** is it a <toggleName delete>
 *** find the closing <toggleName delete> tag and delete
 ** figure out what to do with <toggleName change>
+*** could possibly <toggleName change='
+***                 put code here to insert after toggle removal
+***                 ' />
 ** alter code and save
 ** can this be a jenkins job?
 ** also needs to occur in alm and any other associated repos
@@ -88,7 +98,13 @@
 * shadow-redux
 
 * temporal-collections
+** partially persistent lists
+** fully persistent lists
+** confluently persistent lists
+** retroactive lists
 
+* Why does mapStateToProps run for something that will not rerender
+* Build rerender visualizer in dev tools
 * Immutable Upsert
 ** Init repo, ci and npm
 
