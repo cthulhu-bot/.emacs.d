@@ -31,11 +31,20 @@
 
 
 * jumpcloud
-** finish updates
-** persist to the api layer
-** implement optimistic updates
-** style things
+** TODO fix duplicate create (check nextTodoId key creation)
 ** write tests if there is time
+** DONE responsive layout styling
+   CLOSED: [2018-04-01 Sun 01:17]
+** DONE style things
+   CLOSED: [2018-03-31 Sat 14:49]
+** DONE implement optimistic updates
+   CLOSED: [2018-03-29 Thu 16:24]
+** DONE implement 'isFetching' and show the loading mask on load
+   CLOSED: [2018-03-29 Thu 16:24]
+** DONE persist to the api layer
+   CLOSED: [2018-03-29 Thu 16:24]
+** DONE finish updates
+   CLOSED: [2018-03-28 Wed 12:17]
    
 * toggle-removal-package
 ** scrape repo for toggle name
