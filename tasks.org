@@ -28,23 +28,6 @@
    CLOSED: [2017-12-28 Thu 14:24]
 ** DONE build nav
 ** DONE figure out which framework to use, bootstrap/material
-
-
-* jumpcloud
-** TODO fix duplicate create (check nextTodoId key creation)
-** write tests if there is time
-** DONE responsive layout styling
-   CLOSED: [2018-04-01 Sun 01:17]
-** DONE style things
-   CLOSED: [2018-03-31 Sat 14:49]
-** DONE implement optimistic updates
-   CLOSED: [2018-03-29 Thu 16:24]
-** DONE implement 'isFetching' and show the loading mask on load
-   CLOSED: [2018-03-29 Thu 16:24]
-** DONE persist to the api layer
-   CLOSED: [2018-03-29 Thu 16:24]
-** DONE finish updates
-   CLOSED: [2018-03-28 Wed 12:17]
    
 * toggle-removal-package
 ** scrape repo for toggle name
@@ -60,7 +43,6 @@
 ** can this be a jenkins job?
 ** also needs to occur in alm and any other associated repos
 *** could possibly be cli params
-
 * cljs
 ** TODO investigate closure compiler externs
 ** TODO investigate building externs for truffle lib
@@ -68,23 +50,17 @@
 ** TODO investigate using cljsjs packages
 ** TODO investigate om next
 ** TODO build terminal devcards
-
 * temporal programming language
 ** all data structures are temporal instead of immutable
-
 * use random-object for generative performance testing
 ** graph performance output with iteratively larger/deeper object sizes
-
 * babel cljs transform
-   
 * org-rally
 ** DONE Jesus christ how hard is it to get a zsessionid around here?
    CLOSED: [2017-10-30 Mon 10:15]
 ** TODO Log into rally via org-mode
 ** How do you even make rest requests in elisp
 ** How would you get notified of updates in org-mode? (websockets?)
-
-
 * timeline
 ** implement line o time
 ***   
@@ -98,6 +74,13 @@
 ** scoping
    
 * TODO NPM Packages
+* TODO temporal-collections
+** IN-PROGRESS partial persistence
+*** IN-PROGRESS partial persistent list
+*** TODO partial persistent map
+** TODO fully persistent lists
+** TODO confluently persistent lists
+** TODO retroactive lists
 * sync package.json and package-lock.json
 * yarn-lock-to-shrinkwrap
   
@@ -105,12 +88,6 @@
 ** find some kind of progress bar to indicate (progress)
    
 * shadow-redux
-
-* temporal-collections
-** partially persistent lists
-** fully persistent lists
-** confluently persistent lists
-** retroactive lists
 
 * Why does mapStateToProps run for something that will not rerender
 * Build rerender visualizer in dev tools
@@ -170,6 +147,23 @@
 *** reframe
 *** reagent
 *** figwheel
+
+
+* jumpcloud
+** TODO fix duplicate create (check nextTodoId key creation)
+** write tests if there is time
+** DONE responsive layout styling
+   CLOSED: [2018-04-01 Sun 01:17]
+** DONE style things
+   CLOSED: [2018-03-31 Sat 14:49]
+** DONE implement optimistic updates
+   CLOSED: [2018-03-29 Thu 16:24]
+** DONE implement 'isFetching' and show the loading mask on load
+   CLOSED: [2018-03-29 Thu 16:24]
+** DONE persist to the api layer
+   CLOSED: [2018-03-29 Thu 16:24]
+** DONE finish updates
+   CLOSED: [2018-03-28 Wed 12:17]
 * DONE Random-object
 ** Implement arrays at some future point
 ** in order to publish to npm run the following
