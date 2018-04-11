@@ -73,14 +73,21 @@
 ** filtering
 ** scoping
    
-* TODO NPM Packages
-* TODO temporal-collections
+* NPM Packages
+* IN-PROGRESS temporal-collections
 ** IN-PROGRESS partial persistence
 *** IN-PROGRESS partial persistent list
+**** IN-PROGRESS return last list in persistent list
+**** TODO what is api for previous list versions
+**** TODO what is api for future list versions
+**** TODO visualization of time slice list
+**** implement pointers?
+**** compression back off
 *** TODO partial persistent map
-** TODO fully persistent lists
-** TODO confluently persistent lists
-** TODO retroactive lists
+** TODO full persistence
+** TODO confluently persistence
+** TODO partial retroactivity
+** TODO full retroactivity
 * sync package.json and package-lock.json
 * yarn-lock-to-shrinkwrap
   
