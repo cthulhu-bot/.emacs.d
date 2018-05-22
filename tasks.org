@@ -77,17 +77,32 @@
 * IN-PROGRESS temporal-collections
 ** IN-PROGRESS partial persistence
 *** IN-PROGRESS partial persistent list
-**** IN-PROGRESS return last list in persistent list
+**** DONE implement add
+     CLOSED: [2018-05-21 Mon 16:53]
+**** TODO implement index access
+**** TODO implement head
+**** TODO implement tail
+**** TODO return last list in persistent list, needs classes, object return not working
+**** TODO determine api for removing item from a list (slice?)
 **** TODO what is api for previous list versions
 **** TODO what is api for future list versions
 **** TODO visualization of time slice list
-**** implement pointers?
-**** compression back off
+**** TODO large data testing, see if compression is necessary?
+**** TODO compression back off?
 *** TODO partial persistent map
 ** TODO full persistence
+*** full persistence list
+**** what is api for moving backwards in time
+**** what is api for altering a previous frame?
+**** what is the concept of a frame? (docs)
 ** TODO confluently persistence
+*** confluently persistent list
+**** what is the api for merging 2 frames?
+**** how to handle frame conflicts?
 ** TODO partial retroactivity
+*** partially retroactive list
 ** TODO full retroactivity
+*** fully retroactive list
 * sync package.json and package-lock.json
 * yarn-lock-to-shrinkwrap
   
