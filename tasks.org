@@ -29,6 +29,10 @@
 ** DONE build nav
 ** DONE figure out which framework to use, bootstrap/material
    
+* hyper-node-version
+** build hyper plugin to display the current directory's node and npm versions  
+* hyper-rally
+** build hyper plugin to rally
 * toggle-removal-package
 ** scrape repo for toggle name
 ** is a comment?
