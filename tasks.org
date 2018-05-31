@@ -152,6 +152,15 @@
 ** DONE Open org mode file on startup
    CLOSED: [2017-03-02 Thu 23:30]
 
+
+
+* Rally
+** Rerender logger
+** Upgrade to node 10
+** Upgrade to react 16.4
+** Google docs integration
+** Wasted time module
+
    
 * TODO Performance testing using random object package
 ** TODO Setup reusable package with circleci setup config
@@ -175,7 +184,8 @@
 *** figwheel
 
 
-* jumpcloud
+* DONE jumpcloud
+  CLOSED: [2018-05-30 Wed 22:52]
 ** TODO fix duplicate create (check nextTodoId key creation)
 ** write tests if there is time
 ** DONE responsive layout styling
