@@ -155,12 +155,15 @@
 
 
 * Rally
-** Rerender logger
+** IN-PROGRESS Rerender logger
 *** Fix full page refresh thing
 **** Figure out why making page refresh work breaks turning it off
 **** branch name: jstupplebeen-rerender-logging-full-page-refresh
 *** Figure out why it makes some pages crash (team-board)
 *** monkey-patch to report statistics back to dev dashboard
+** TODO Dev module to aggregate rerender messages
+** TODO Lets encrypt fix cert on ueshell
+** Moar service worker perceived performance
 ** Wasted time module
 ** Upgrade to node 10
 ** Upgrade to react 16.4
