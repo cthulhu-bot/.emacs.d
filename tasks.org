@@ -249,7 +249,8 @@
 ** Material UI
 
 * Medium Posts
-** IN-PROGRESS Cljs lumo
+** DONE Cljs lumo
+   CLOSED: [2018-06-06 Wed 00:12]
 ** Pairing Doesn't allow struggle for the individual to learn
 ** Agile Breeds Mediocraty with no accountability
 * Coding Life
