@@ -83,6 +83,7 @@
 *** IN-PROGRESS partial persistent list
 **** DONE implement add
      CLOSED: [2018-05-21 Mon 16:53]
+**** TODO refactor to classes (why did we need this?, internal stuff?)
 **** TODO implement index access
 **** TODO implement head
 **** TODO implement tail
@@ -106,7 +107,9 @@
 ** TODO partial retroactivity
 *** partially retroactive list
 ** TODO full retroactivity
+   
 *** fully retroactive list
+** TODO search backwards
 * sync package.json and package-lock.json
 * yarn-lock-to-shrinkwrap
   
