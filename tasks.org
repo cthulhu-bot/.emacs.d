@@ -85,6 +85,7 @@
      CLOSED: [2018-05-21 Mon 16:53]
 **** TODO refactor to classes (why did we need this?, internal stuff?)
 **** TODO implement index access
+**** TODO might not need to do the above, instead investigate iterable, or extend and override array
 **** TODO implement head
 **** TODO implement tail
 **** TODO return last list in persistent list, needs classes, object return not working
