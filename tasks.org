@@ -84,14 +84,12 @@
 **** DONE implement add
      CLOSED: [2018-05-21 Mon 16:53]
 **** TODO refactor to classes (why did we need this?, internal stuff?)
-**** TODO implement index access
+**** TODO implement index access (oh shit forgot about this one)
 **** TODO might not need to do the above, instead investigate iterable, or extend and override array
-**** TODO implement head
-**** TODO implement tail
 **** TODO return last list in persistent list, needs classes, object return not working
-**** TODO determine api for removing item from a list (slice?)
-**** TODO what is api for previous list versions
-**** TODO what is api for future list versions
+**** TODO include operation in node that resulted in next node
+**** TODO what is api for previous list versions (still needed?)
+**** TODO what is api for future list versions (still needed?)
 **** TODO visualization of time slice list
 **** TODO large data testing, see if compression is necessary?
 **** TODO compression back off?
